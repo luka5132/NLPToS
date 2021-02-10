@@ -28,22 +28,6 @@ def getLinks(url, keyword = False):
     return links
 
 
-
-def getFilterSet(jsonfile):
-    pointdsict = {}
-    pointsData = jsonfile["pointsData"]
-    url = jsonfile["urls"][0]
-    websitename = getWebsiteName(url)
-    for pd in pointsData:
-        point = pointsData[pd]
-        doc = point["quoteDoc"].lower()
-        doc = doc.replace(websitename, "")
-        doc = re.sub(r'[^\w\s]', '', doc) 
-        wordset = set(doc.split())  
-        pointdsict[doc] = wordset
-    return pointdsict
-        
-        
 def filterLinks(lolinks, pointsdict):
     """simple word counting method, definetly not best method, should look for
     more advanced"""
