@@ -1,0 +1,45 @@
+{
+  "class": false,
+  "links": {},
+  "points": [
+    "4294",
+    "4296"
+  ],
+  "pointsData": {
+    "4294": {
+      "id": "4294",
+      "needModeration": false,
+      "services": [
+        "thehelloworldcollection"
+      ],
+      "title": "no tracking",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not track you",
+        "point": "good",
+        "score": 100,
+        "tldr": "no tracking"
+      }
+    },
+    "4296": {
+      "id": "4296",
+      "needModeration": false,
+      "services": [
+        "thehelloworldcollection"
+      ],
+      "title": "easy to read",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The terms for this service are easy to read",
+        "point": "good",
+        "score": 15,
+        "tldr": "easy to read"
+      }
+    }
+  },
+  "urls": [
+    "helloworldcollection.de"
+  ]
+}

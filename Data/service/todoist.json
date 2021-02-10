@@ -1,0 +1,29 @@
+{
+  "alexa": 3442,
+  "class": false,
+  "links": {},
+  "points": [
+    "4931"
+  ],
+  "pointsData": {
+    "4931": {
+      "id": "4931",
+      "needModeration": false,
+      "services": [
+        "todoist"
+      ],
+      "title": "The terms for this service are easy to read",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The terms for this service are easy to read",
+        "point": "good",
+        "score": 15,
+        "tldr": ""
+      }
+    }
+  },
+  "urls": [
+    "todoist.com"
+  ]
+}

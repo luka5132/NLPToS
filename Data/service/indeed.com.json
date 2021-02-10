@@ -1,0 +1,80 @@
+{
+  "alexa": 199,
+  "class": false,
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "http://www.indeed.com/intl/en/privacy.html"
+    }
+  },
+  "points": [
+    "11784",
+    "11786",
+    "11787"
+  ],
+  "pointsData": {
+    "11784": {
+      "id": "11784",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 137652,
+      "quoteStart": 137416,
+      "quoteText": "THE SITE, AND ALL MATERIALS, INFORMATION, ADVICE, JOB LISTINGS, CAREER GUIDE, USER CONTENT, PRODUCTS, FEATURES AND SERVICES AVAILABLE ON OR THROUGH THE SITE ARE PROVIDED “AS IS,” WITH NO WARRANTIES WHATSOEVER, EITHER EXPRESS OR IMPLIED.",
+      "services": [
+        "indeed.com"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11786": {
+      "id": "11786",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 51619,
+      "quoteStart": 51381,
+      "quoteText": "\nAdditionally, as a Job Seeker, your use of job search on the Site is at no charge and you acknowledge that part of the price you are paying to use this Site is your acceptance of these terms of service including this Class Action Waiver.",
+      "services": [
+        "indeed.com"
+      ],
+      "title": "You waive your right to a class action.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your right to a class action.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11787": {
+      "id": "11787",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 177773,
+      "quoteStart": 177631,
+      "quoteText": "You waive all claims relating to charges unless claimed within 60 days after the charge (this does not affect your credit card issuer rights).",
+      "services": [
+        "indeed.com"
+      ],
+      "title": "Users have a reduced time period to take legal action against the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users have a reduced time period to take legal action against the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "indeed.com"
+  ]
+}

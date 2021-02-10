@@ -1,0 +1,159 @@
+{
+  "class": false,
+  "links": {},
+  "points": [
+    "4600",
+    "4601",
+    "4602",
+    "4603",
+    "4604",
+    "4605",
+    "4606"
+  ],
+  "pointsData": {
+    "4600": {
+      "id": "4600",
+      "needModeration": false,
+      "quoteDoc": "Cookies and Privacy Policy",
+      "quoteEnd": 881,
+      "quoteStart": 766,
+      "quoteText": "</p>What information does Setlisting collect? <p>We collect the following types of information from our users:</p> ",
+      "services": [
+        "setlisting"
+      ],
+      "title": "The service provides details about what kinds of personal information they collect",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides details about what kinds of personal information they collect",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4601": {
+      "id": "4601",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 2898,
+      "quoteStart": 2825,
+      "quoteText": "You must be 13 or older to register as a user or to use the Website.</p> ",
+      "services": [
+        "setlisting"
+      ],
+      "title": "This service is only available to users of a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4602": {
+      "id": "4602",
+      "needModeration": false,
+      "quoteDoc": "Cookies and Privacy Policy",
+      "quoteEnd": 4400,
+      "quoteStart": 3775,
+      "quoteText": "<p>When you use this website, you may also be sent the following third party cookies, which may be used for the following purposes:</p>\n<ul>\n<li>Google AdWords conversion tracking (Google) is a service that collects cookie and usage data for purposes of tracking actions performed on this site.</li>\n<li>Google Analytics remarketing and similar audiences features in Adwords (Google) are services that use cookie and usage data to connect activity on this site with the Adwords and Doubleclick advertising networks.\nThe collected information enables Google and its partners, to serve advertising based on your activity.</li>\n",
+      "services": [
+        "setlisting"
+      ],
+      "title": "This service allows tracking via third-party cookies for purposes including targeted advertising.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Tracking via third-party cookies for other purposes without your consent.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4603": {
+      "id": "4603",
+      "needModeration": false,
+      "quoteDoc": "Cookies and Privacy Policy",
+      "quoteEnd": 6138,
+      "quoteStart": 5322,
+      "quoteText": "You may opt out of the use of cookies by other third parties by visiting http://www.networkadvertising.org/choices/#completed.\nThis opt-out mechanism uses a cookie, and if you clear the cookies from your browser your opt-out will not be maintained.\nYou should visit this page periodically to review your preferences, or update to include new participating companies.</li>\n</ul> Refusing cookies <p>Most browsers allow you to refuse to accept cookies.</p>\n<p>In Internet Explorer, you can refuse all cookies by clicking “Tools”, “Internet Options”, “Privacy”, and selecting “Block all cookies” using the sliding selector.</p>\n<p>In Firefox, you can adjust your cookies settings by clicking “Tools”, “Options” and “Privacy”.</p>\n<p>Blocking cookies will have a negative impact upon the usability of some websites.</p> ",
+      "services": [
+        "setlisting"
+      ],
+      "title": "This service employs third-party cookies, but with opt-out instructions",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service employs third-party cookies, but with opt-out instructions",
+        "point": "bad",
+        "score": 5,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4604": {
+      "id": "4604",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 2822,
+      "quoteStart": 2671,
+      "quoteText": "restrict, suspend, or terminate your access to the Website at any time, for any or no reason, with or without prior notice, and without liability.</p>\n",
+      "services": [
+        "setlisting"
+      ],
+      "title": "The service can delete your account without prior notice and without a reason",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete your account without prior notice and without a reason",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4605": {
+      "id": "4605",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 2663,
+      "quoteStart": 2553,
+      "quoteText": "We also reserve the right to reject, refuse to post, or remove any posting (including private messages) by you",
+      "services": [
+        "setlisting"
+      ],
+      "title": "The service can delete specific content without prior notice and without a reason",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete specific content without reason and may do it without prior notice",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4606": {
+      "id": "4606",
+      "needModeration": false,
+      "quoteDoc": "Cookies and Privacy Policy",
+      "quoteEnd": 2677,
+      "quoteStart": 2523,
+      "quoteText": "If you do not want to receive email or other mail from us, you can opt-out by updating your settings under the \"Settings\" link on www.setlisting.com.</p> ",
+      "services": [
+        "setlisting"
+      ],
+      "title": "You can opt out of promotional communications",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can opt out of promotional communications",
+        "point": "good",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "setlisting.com"
+  ]
+}

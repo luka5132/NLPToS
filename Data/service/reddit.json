@@ -1,0 +1,376 @@
+{
+  "alexa": 6,
+  "class": "D",
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "http://www.reddit.com/help/privacypolicy"
+    },
+    "Terms of Service": {
+      "name": "Terms of Service",
+      "url": "http://www.reddit.com/help/useragreement"
+    }
+  },
+  "points": [
+    "5613",
+    "5615",
+    "8171",
+    "8172",
+    "8173",
+    "8175",
+    "8176",
+    "8177",
+    "8178",
+    "8179",
+    "8181",
+    "9849",
+    "9850",
+    "9851",
+    "9864",
+    "9892",
+    "9895"
+  ],
+  "pointsData": {
+    "5613": {
+      "id": "5613",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 13179,
+      "quoteStart": 13032,
+      "quoteText": "To the extent the law allows it, we will attempt to provide you with prior notice before disclosing your information in response to such a request.",
+      "services": [
+        "reddit"
+      ],
+      "title": "The service promises to inform and/or notify users regarding government inquiries that may involve users' personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service promises to inform and/or notify users regarding government inquiries that may involve users' personal data",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5615": {
+      "id": "5615",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 18837,
+      "quoteStart": 18550,
+      "quoteText": "Most modern web browsers give you the option to send a Do Not Track signal to the sites you visit, indicating that you do not wish to be tracked.\nHowever, there is no accepted standard for how a site should respond to this signal, and we do not take any action in response to this signal",
+      "services": [
+        "reddit"
+      ],
+      "title": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8171": {
+      "id": "8171",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 3133,
+      "quoteStart": 3031,
+      "quoteText": "We reserve the right to modify, suspend, or discontinue the Services (in whole or in part) at any time",
+      "services": [
+        "reddit"
+      ],
+      "title": "They may stop providing the service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "They may stop providing the service at any time",
+        "point": "bad",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8172": {
+      "id": "8172",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 3916,
+      "quoteStart": 3785,
+      "quoteText": "p>\n<p>You are solely responsible for the information associated with your Account and anything that happens related to your Account",
+      "services": [
+        "reddit"
+      ],
+      "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8173": {
+      "id": "8173",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 6337,
+      "quoteStart": 6110,
+      "quoteText": "Any ideas, suggestions, and feedback about Reddit or our Services that you provide to us are entirely voluntary, and you agree that Reddit may use such ideas, suggestions, and feedback without compensation or obligation to you.",
+      "services": [
+        "reddit"
+      ],
+      "title": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8175": {
+      "id": "8175",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 5178,
+      "quoteStart": 5119,
+      "quoteText": "<p>You retain any ownership rights you have in Your Content",
+      "services": [
+        "reddit"
+      ],
+      "title": "You maintain ownership of your data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You maintain ownership of your data",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8176": {
+      "id": "8176",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 5916,
+      "quoteStart": 5715,
+      "quoteText": "This license includes the right for us to make Your Content available for syndication, broadcast, distribution, or publication by other companies, organizations, or individuals who partner with Reddit.",
+      "services": [
+        "reddit"
+      ],
+      "title": "This service can license user content to third parties",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service can license user content to third parties",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8177": {
+      "id": "8177",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 5433,
+      "quoteStart": 5248,
+      "quoteText": "<p>When Your Content is created with or submitted to the Services, you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license",
+      "services": [
+        "reddit"
+      ],
+      "title": "This service keeps a license on user-generated content even after users close their accounts.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service keeps a license on user-generated content even after users close their accounts.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8178": {
+      "id": "8178",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 5691,
+      "quoteStart": 5524,
+      "quoteText": "display Your Content and any name, username, voice, or likeness provided in connection with Your Content in all media formats and channels now known or later developed",
+      "services": [
+        "reddit"
+      ],
+      "title": "This service employs a broad copyright license over user content including the right to distribute through any media",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can distribute your content through any media known now or in the future ",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8179": {
+      "id": "8179",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 6510,
+      "quoteStart": 6418,
+      "quoteText": "we may, in our sole discretion, delete or remove Your Content at any time and for any reason",
+      "services": [
+        "reddit"
+      ],
+      "title": "The service can delete specific content without prior notice and without a reason",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete specific content without reason and may do it without prior notice",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8181": {
+      "id": "8181",
+      "needModeration": false,
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 9114,
+      "quoteStart": 9072,
+      "quoteText": "Use the Services to violate applicable law",
+      "services": [
+        "reddit"
+      ],
+      "title": "Users agree not to use the service for illegal purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree not to use the service for illegal purposes",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9849": {
+      "id": "9849",
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 6102,
+      "quoteStart": 5994,
+      "quoteText": "you irrevocably waive any claims and assertions of moral rights or attribution with respect to Your Content.",
+      "services": [
+        "reddit"
+      ],
+      "title": "You sign away moral rights",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your moral rights",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9850": {
+      "id": "9850",
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 20999,
+      "quoteStart": 20870,
+      "quoteText": "Our failure to exercise or enforce any right or provision of these Terms will not operate as a waiver of such right or provision.",
+      "services": [
+        "reddit"
+      ],
+      "title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9851": {
+      "id": "9851",
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 21142,
+      "quoteStart": 21000,
+      "quoteText": "If any provision of these Terms is, for any reason, held to be illegal, invalid, or unenforceable, the rest of the Terms will remain in effect",
+      "services": [
+        "reddit"
+      ],
+      "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9864": {
+      "id": "9864",
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 18452,
+      "quoteStart": 18309,
+      "quoteText": "All disputes related to these Terms or the Services will be brought solely in the federal or state courts located in San Francisco, California.",
+      "services": [
+        "reddit"
+      ],
+      "title": "Users agree to comply with the law of the service's country",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree to comply with the law of the service's country",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9892": {
+      "id": "9892",
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 15130,
+      "quoteStart": 15020,
+      "quoteText": "THE SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED",
+      "services": [
+        "reddit"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9895": {
+      "id": "9895",
+      "quoteDoc": "Reddit User Agreement",
+      "quoteEnd": 16445,
+      "quoteStart": 16252,
+      "quoteText": "ACCESS TO, AND USE OF, THE SERVICES IS AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR DEVICE OR COMPUTER SYSTEM, OR LOSS OF DATA RESULTING THEREFROM.",
+      "services": [
+        "reddit"
+      ],
+      "title": "Users are responsible for any risks, damages, or losses they may incur by downloading materials",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users are responsible for any risks, damages, or losses they may incur by downloading materials",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "reddit.com",
+    "reddithelp.com",
+    "redditinc.com",
+    "redditgifts.com",
+    "redditblog.com"
+  ]
+}

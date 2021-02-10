@@ -1,0 +1,135 @@
+{
+  "class": false,
+  "links": {},
+  "points": [
+    "10885",
+    "10886",
+    "10887",
+    "11377",
+    "11378",
+    "5837"
+  ],
+  "pointsData": {
+    "5837": {
+      "id": "5837",
+      "needModeration": false,
+      "quoteDoc": " AWS Privacy Notice",
+      "quoteEnd": 63972,
+      "quoteStart": 63280,
+      "quoteText": "Third-Party Service Providers:</b> We employ other companies and individuals to perform functions on our behalf.\nExamples include: delivering AWS hardware, sending communications, processing payments, assessing credit and compliance risks, analyzing data, providing marketing and sales assistance (including advertising and event management), conducting customer relationship management, and providing training.\nThese third party service providers have access to personal information needed to perform their functions, but may not use it for other purposes.\nFurther, they must process that information in accordance with this Privacy Notice and as permitted by applicable data protection law.",
+      "services": [
+        "amazonaws"
+      ],
+      "title": "Third parties may be involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Third parties may be involved in operating the service",
+        "point": "bad",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10885": {
+      "id": "10885",
+      "quoteDoc": " AWS Privacy Notice",
+      "quoteEnd": 64189,
+      "quoteStart": 64010,
+      "quoteText": "As we continue to develop our business, we might sell or buy businesses or services.\nIn such transactions, personal information generally is one of the transferred business assets",
+      "services": [
+        "amazonaws"
+      ],
+      "title": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10886": {
+      "id": "10886",
+      "quoteDoc": " AWS Privacy Notice",
+      "quoteEnd": 60937,
+      "quoteStart": 60766,
+      "quoteText": "We use your personal information to recommend AWS Offerings that might be of interest to you, identify your preferences, and personalize your experience with AWS Offerings",
+      "services": [
+        "amazonaws"
+      ],
+      "title": "This service may use your personal information for marketing purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service may use your personal information for marketing purposes",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10887": {
+      "id": "10887",
+      "quoteDoc": " AWS Privacy Notice",
+      "quoteEnd": 65302,
+      "quoteStart": 65146,
+      "quoteText": "Location of Personal Information <p>Amazon Web Services, Inc.\nis located in the United States, and our affiliated companies are located throughout the world",
+      "services": [
+        "amazonaws"
+      ],
+      "title": "Your data may be processed and stored anywhere in the world",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your data may be processed and stored anywhere in the world",
+        "point": "bad",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11377": {
+      "id": "11377",
+      "quoteDoc": " AWS Privacy Notice",
+      "quoteEnd": 73149,
+      "quoteStart": 72756,
+      "quoteText": "Subject to applicable law, you have the right to:</p>\n<ul>\n<li>ask whether we hold personal information about you and request copies of such personal information and information about how it is processed;</li>\n<li>request that inaccurate personal information is corrected;</li>\n<li>request deletion of personal information that is no longer necessary for the purposes underlying the processing",
+      "services": [
+        "amazonaws"
+      ],
+      "title": "You can request access and deletion of personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can request access and deletion of personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11378": {
+      "id": "11378",
+      "quoteDoc": " AWS Privacy Notice",
+      "quoteEnd": 61612,
+      "quoteStart": 61430,
+      "quoteText": "We use your personal information to market and promote AWS Offerings.\nWe might display interest-based ads for AWS Offerings.\nTo learn more, please read our Interest-Based Ads notice.",
+      "services": [
+        "amazonaws"
+      ],
+      "title": "The service uses your personal data to employ targeted third-party advertising",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service uses your personal data to employ targeted third-party advertising",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "aws.amazon.com"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "class": false,
+  "links": {},
+  "points": [
+    "6173",
+    "6174",
+    "6175",
+    "6176"
+  ],
+  "pointsData": {
+    "6173": {
+      "id": "6173",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 6260,
+      "quoteStart": 6183,
+      "quoteText": "Vous pouvez gérer votre consentement pour les cookies tiers grâce à cet outil",
+      "services": [
+        "pole-emotion"
+      ],
+      "title": "This service employs third-party cookies, but with opt-out instructions",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service employs third-party cookies, but with opt-out instructions",
+        "point": "bad",
+        "score": 5,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6174": {
+      "id": "6174",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 5430,
+      "quoteStart": 4967,
+      "quoteText": "<p>Chez nous, vos données personnelles sont transmises en toute sécurité grâce à un codage.\nÀ cette occasion, nous utilisons le système de codage SSL (Secure Socket Layer).\nPersonne ne peut garantir une protection absolue.\nCependant, nous protégeons notre site web et nos autres systèmes par des mesures techniques et organisationnelles contre la perte, la destruction, l’accès, la modification et la diffusion de vos données par des personnes non autorisées.</p>",
+      "services": [
+        "pole-emotion"
+      ],
+      "title": "The user is informed about security practices",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The user is informed about security practices",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6175": {
+      "id": "6175",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 6179,
+      "quoteStart": 5460,
+      "quoteText": "Afin notamment de rendre l’utilisation du site plus agréable, des cookies ou d’autres témoins sont utilisés et susceptibles d’enregistrer automatiquement des informations personnelles.</p>\n<p>Nous rappelons aux utilisateurs que les données relatives à leur recherche et leur navigation peuvent faire l’objet de traitements à des fins de ciblage publicitaire par nos propres soins et dans le respect notamment du droit de la protection des données personnelles.\nCes données sont alors utilisées notamment pour des finalités liées à la publicité, les mesures statistiques, la publicité géolocalisée ou encore l’analyse des comportements des internautes dans le but de personnaliser la publicité qui leur est adressée.</p>",
+      "services": [
+        "pole-emotion"
+      ],
+      "title": "This service allows tracking via third-party cookies for purposes including targeted advertising.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Tracking via third-party cookies for other purposes without your consent.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6176": {
+      "id": "6176",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 4950,
+      "quoteStart": 4888,
+      "quoteText": "Nous ne transmettons pas vos données personnelles à des tiers.",
+      "services": [
+        "pole-emotion"
+      ],
+      "title": "This service does not sell your personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not sell your personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "pole-emotion.ch"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "alexa": 466,
+  "class": false,
+  "links": {},
+  "points": [
+    "5258",
+    "5259"
+  ],
+  "pointsData": {
+    "5258": {
+      "id": "5258",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 2971,
+      "quoteStart": 2949,
+      "quoteText": "Information We Collect",
+      "services": [
+        "fiverr"
+      ],
+      "title": "The service provides details about what kinds of personal information they collect",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides details about what kinds of personal information they collect",
+        "point": "good",
+        "score": 30,
+        "tldr": "The Privacy Policy outlines details about personal information they collect."
+      }
+    },
+    "5259": {
+      "id": "5259",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 20275,
+      "quoteStart": 20063,
+      "quoteText": "Our Site is not intended for children under 13 years of age.\nNo one under age 13 should provide any personal information to or on the Site.\nWe do not knowingly collect personal information from children under 13.",
+      "services": [
+        "fiverr"
+      ],
+      "title": "This service is only available to users of a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "fiverr.com"
+  ]
+}

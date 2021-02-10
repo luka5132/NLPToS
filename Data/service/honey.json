@@ -1,0 +1,179 @@
+{
+  "alexa": 2460,
+  "class": false,
+  "links": {},
+  "points": [
+    "11973",
+    "11974",
+    "11975",
+    "11976",
+    "11977",
+    "8445",
+    "8446",
+    "8447"
+  ],
+  "pointsData": {
+    "8445": {
+      "id": "8445",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 2925,
+      "quoteStart": 2834,
+      "quoteText": "Though you don’t have to, you can choose to provide your email to set up an account with us",
+      "services": [
+        "honey"
+      ],
+      "title": "Users can access most of the pages on the service's website without revealing any personal information",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users can access most of the pages on the service's website without revealing any personal information",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8446": {
+      "id": "8446",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 4030,
+      "quoteStart": 3953,
+      "quoteText": "We know how important your personal data is to you, so we will never sell it.",
+      "services": [
+        "honey"
+      ],
+      "title": "This service does not sell your personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not sell your personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8447": {
+      "id": "8447",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 4269,
+      "quoteStart": 4115,
+      "quoteText": "That means we will share your data if needed to complete your purchase, with businesses who help us operate Honey, or if we are legally required to do so.",
+      "services": [
+        "honey"
+      ],
+      "title": "Your personal data is used for limited purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your personal data is used for limited purposes",
+        "point": "good",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11973": {
+      "id": "11973",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 5829,
+      "quoteStart": 5632,
+      "quoteText": "We don’t knowingly collect or solicit personal information from children.\nIf you are a child under 18, please do not attempt to register for Honey’s products or send any personal information to us.",
+      "services": [
+        "honey"
+      ],
+      "title": "This service is only available to users over a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11974": {
+      "id": "11974",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 3785,
+      "quoteStart": 3611,
+      "quoteText": "When you are on a pre-approved retail site, to help you save money, Honey will collect information about that site that lets us know which coupons and promos to find for you.",
+      "services": [
+        "honey"
+      ],
+      "title": "This service tracks you on other websites",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service tracks you on other websites",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11975": {
+      "id": "11975",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 4738,
+      "quoteStart": 4580,
+      "quoteText": "Honey uses cookies, pixel tags, web beacons, and other markers (we’ll just call them “cookies”) to collect some of the data discussed in this Privacy Policy.\n",
+      "services": [
+        "honey"
+      ],
+      "title": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11976": {
+      "id": "11976",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 1774,
+      "quoteStart": 1691,
+      "quoteText": "P.S.\nIf you have any questions or comments, just email us at privacy@joinhoney.com.",
+      "services": [
+        "honey"
+      ],
+      "title": "The service provides a free help desk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides a free help desk",
+        "point": "good",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11977": {
+      "id": "11977",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 5040,
+      "quoteStart": 4978,
+      "quoteText": "We’ve made it easy to opt out of Honey’s products at any time.",
+      "services": [
+        "honey"
+      ],
+      "title": "You have the right to leave this service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You have the right to leave this service at any time",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "joinhoney.com"
+  ]
+}

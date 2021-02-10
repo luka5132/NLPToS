@@ -1,0 +1,99 @@
+{
+  "alexa": 9825,
+  "class": false,
+  "links": {},
+  "points": [
+    "8152",
+    "8153",
+    "8154",
+    "8155"
+  ],
+  "pointsData": {
+    "8152": {
+      "id": "8152",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 3365,
+      "quoteStart": 2893,
+      "quoteText": "Policy on release of data derived from page logs\n<p>It is the policy of Ballotpedia that personally identifiable data collected in the server logs, or through records in the database via the CheckUser feature, may be released by the system administrators or users with CheckUser access, in the following situations:\n</p>\n<ol>\n<li> In response to a valid subpoena or other compulsory request from law enforcement</li>\n<li> With permission of the affected user</li>\n<li> To ",
+      "services": [
+        "ballotpedia"
+      ],
+      "title": "The service is transparent regarding government requests or inquiries that may involve user data.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is transparent regarding government requests or inquiries that may involve user data.",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8153": {
+      "id": "8153",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 1939,
+      "quoteStart": 1303,
+      "quoteText": "</p>\nPublishing on Ballotpedia and public data\n<p>Simply visiting Ballotpedia does not expose your identity publicly (but see private logging below).\n</p>\nPrivate logging\n<p>Every time you visit a web page, you send a lot of information to the web server.\nMost web servers routinely maintain access logs with a portion of this information, which can be used to get an overall picture of what pages are popular, what other sites link to this one, and what web browsers people are using.\n</p>\n<p>These logs are used to produce the site statistics pages.\nthe raw log data is not made public, and is normally discarded after about two weeks",
+      "services": [
+        "ballotpedia"
+      ],
+      "title": "The service's data retention period is kept to the minimum necessary for fulfilling its purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service's data retention period is kept to the minimum necessary for fulfilling its purposes",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8154": {
+      "id": "8154",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 4588,
+      "quoteStart": 4434,
+      "quoteText": "When you submit your email addresses, phone numbers, and addresses, that data will only be used by Ballotpedia.\nBallotpedia will not sell your information",
+      "services": [
+        "ballotpedia"
+      ],
+      "title": "This service does not sell your personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not sell your personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8155": {
+      "id": "8155",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 5452,
+      "quoteStart": 5263,
+      "quoteText": "If you prefer not to receive interest-based content, you can opt-out by clicking on the “Opt Out” link at either Network Advertising Initiative (NAI) or Digital Advertising Alliance (DAA).\"",
+      "services": [
+        "ballotpedia"
+      ],
+      "title": "You can opt out of targeted advertising",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can opt out of targeted advertising",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "ballotpedia.org"
+  ]
+}

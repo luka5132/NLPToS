@@ -1,0 +1,355 @@
+{
+  "alexa": 6071,
+  "class": false,
+  "links": {},
+  "points": [
+    "6531",
+    "6533",
+    "6579",
+    "6580",
+    "6581",
+    "6582",
+    "6586",
+    "6587",
+    "6592",
+    "6593",
+    "6594",
+    "6596",
+    "6597",
+    "6601",
+    "6605",
+    "6606"
+  ],
+  "pointsData": {
+    "6531": {
+      "id": "6531",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 18463,
+      "quoteStart": 18174,
+      "quoteText": "You may have the right to access or receive certain information about the personal data we process about you.\nYou also may have a right to have your personal data rectified, to object to the processing of your personal data, or to ask us to restrict processing or delete your personal data",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "You can request access and deletion of personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can request access and deletion of personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6533": {
+      "id": "6533",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 4415,
+      "quoteStart": 4412,
+      "quoteText": "may",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "There is a date of the last update of the terms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "There is a date of the last update of the terms",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6579": {
+      "id": "6579",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 1995,
+      "quoteStart": 1930,
+      "quoteText": "Our website uses fonts by Google LLC (“Google”) (“Google Fonts”).",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "Many third parties are involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Many third parties are involved in operating the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6580": {
+      "id": "6580",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 4750,
+      "quoteStart": 4592,
+      "quoteText": "We use the services of SendGrid to send transactional emails, including account creation emails, password resets, purchase receipts, and account notifications",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "Many third parties are involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Many third parties are involved in operating the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6581": {
+      "id": "6581",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 5497,
+      "quoteStart": 5384,
+      "quoteText": "Customer data is never sold, and is not shared with third parties for those third parties’ own business interests",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "This service does not sell your personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not sell your personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6582": {
+      "id": "6582",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 6164,
+      "quoteStart": 5999,
+      "quoteText": "We also use the services of Autopilot, an email automation platform, to better reach ShapeShift product subscribers who have opted in to receive such communications.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "Many third parties are involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Many third parties are involved in operating the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6586": {
+      "id": "6586",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 10499,
+      "quoteStart": 10321,
+      "quoteText": "You can prevent Google Analytics from using your data by downloading and installing a browser add-on to disable Google Analytics (https://tools.google.com/dlpage/gaoptout?hl=en).",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "This service employs third-party cookies, but with opt-out instructions",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service employs third-party cookies, but with opt-out instructions",
+        "point": "bad",
+        "score": 5,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6587": {
+      "id": "6587",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 11433,
+      "quoteStart": 11183,
+      "quoteText": "We use the services of Cloudflare, Inc.\n(“Cloudflare”) in order to identify trusted web traffic (i.e.\nto identify individual clients behind a shared IP address and apply security settings on a per-client basis), in which we have a legitimate interest",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "Many third parties are involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Many third parties are involved in operating the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6592": {
+      "id": "6592",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 12470,
+      "quoteStart": 12374,
+      "quoteText": "Segment uses cookies and other similar tracking technologies in order to provide these services.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "This service uses third-party cookies for statistics",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service uses third-party cookies for statistics",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6593": {
+      "id": "6593",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 13199,
+      "quoteStart": 13114,
+      "quoteText": "The ShareThis Plugin uses cookies and informs ShareThis that you visited the website.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "Tracking via third-party cookies for other purposes without your consent.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Tracking via third-party cookies for other purposes without your consent.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6594": {
+      "id": "6594",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 13503,
+      "quoteStart": 13365,
+      "quoteText": "The information collected by ShareThis may include user data (including IP address) and the geographical region as well as technical data.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "This service may collect, use, and share location data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service may collect, use, and share location data",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 75,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6596": {
+      "id": "6596",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 5383,
+      "quoteStart": 5207,
+      "quoteText": "Referral Hero and its service providers automatically collect certain information using tracking technologies like cookies, web beacons and similar technologies, and web forms.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6597": {
+      "id": "6597",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 9495,
+      "quoteStart": 9374,
+      "quoteText": "We also use cookies to analyze the use of the website, to optimize our services and to enable the use of marketing tools.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "This service uses third-party cookies for statistics",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service uses third-party cookies for statistics",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6601": {
+      "id": "6601",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 15391,
+      "quoteStart": 15226,
+      "quoteText": "We also use Google Tag Manager to set re-targeting tags.\nThese tags enable us to target users with information about our services when they visit different websites.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "This service tracks you on other websites",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service tracks you on other websites",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6605": {
+      "id": "6605",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 17557,
+      "quoteStart": 17427,
+      "quoteText": "The data sharing may include transfers to companies or organizations in countries without an adequate standard of data protection.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "Your data may be processed and stored anywhere in the world",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your data may be processed and stored anywhere in the world",
+        "point": "bad",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6606": {
+      "id": "6606",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 19058,
+      "quoteStart": 18781,
+      "quoteText": "Specifically, we may need to further process and retain your personal data to perform a contract with you or your company or organization, to protect our legitimate interests (such as the establishment, exercise or defense of legal claims) or to comply with legal requirements.",
+      "services": [
+        "shapeshift"
+      ],
+      "title": "This service may keep personal data after a request for erasure for business interests or legal obligations",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service may keep personal data after a request for erasure for business interests or legal obligations",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "shapeshift.io",
+    "shapeshift.com"
+  ]
+}

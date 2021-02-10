@@ -1,0 +1,52 @@
+{
+  "alexa": 14457,
+  "class": false,
+  "links": {},
+  "points": [
+    "7114",
+    "7115"
+  ],
+  "pointsData": {
+    "7114": {
+      "id": "7114",
+      "quoteDoc": "Datenschutzerklärung",
+      "quoteEnd": 2066,
+      "quoteStart": 2050,
+      "quoteText": "Stand: Karlsruhe",
+      "services": [
+        "billiger-de"
+      ],
+      "title": "There is a date of the last update of the terms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "There is a date of the last update of the terms",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7115": {
+      "id": "7115",
+      "quoteDoc": "AGB",
+      "quoteEnd": 2188,
+      "quoteStart": 2172,
+      "quoteText": "Stand: Karlsruhe",
+      "services": [
+        "billiger-de"
+      ],
+      "title": "There is a date of the last update of the terms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "There is a date of the last update of the terms",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "billiger.de"
+  ]
+}

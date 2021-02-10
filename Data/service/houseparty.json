@@ -1,0 +1,180 @@
+{
+  "alexa": 375586,
+  "class": "B",
+  "links": {},
+  "points": [
+    "12506",
+    "9026",
+    "9027",
+    "9030",
+    "9032",
+    "9038",
+    "9040",
+    "9041"
+  ],
+  "pointsData": {
+    "9026": {
+      "id": "9026",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 20152,
+      "quoteStart": 20118,
+      "quoteText": "<p>Last Updated: June 11, 2018</p>",
+      "services": [
+        "houseparty"
+      ],
+      "title": "There is a date of the last update of the terms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "There is a date of the last update of the terms",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9027": {
+      "id": "9027",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 20841,
+      "quoteStart": 20497,
+      "quoteText": "UNLESS YOU OPT OUT OF ARBITRATION WITHIN 30 DAYS OF THE DATE YOU FIRST AGREE TO THESE TERMS BY FOLLOWING THE OPT-OUT PROCEDURE SPECIFIED IN SECTION 12 (“DISPUTE RESOLUTION”), AND EXCEPT FOR CERTAIN TYPES OF DISPUTES DESCRIBED IN SECTION 12, YOU AGREE THAT DISPUTES BETWEEN YOU AND LIFE ON AIR WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION",
+      "services": [
+        "houseparty"
+      ],
+      "title": "This service forces users into binding arbitration in the case of disputes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service forces users into binding arbitration in the case of disputes",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9030": {
+      "id": "9030",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 41331,
+      "quoteStart": 41101,
+      "quoteText": "You may end your legal agreement with Life On Air at any time for any reason by deactivating your account and discontinuing your use of the Services.\nIn order to deactivate your account, please contact us hello@houseparty.com.</p>",
+      "services": [
+        "houseparty"
+      ],
+      "title": "You have the right to leave this service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You have the right to leave this service at any time",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9032": {
+      "id": "9032",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 46012,
+      "quoteStart": 45310,
+      "quoteText": " <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LIFE ON AIR ENTITIES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOOD-WILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM (i) YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE SERVICES.\n(ii) ANY CONDUCT OR CONTENT OF ANY THIRD PARTY ON THE SERVICES, INCLUDING WITHOUT LIMITATION, ANY DEFAMATORY, OFFENSIVE OR ILLEGAL CONDUCT OF OTHER USERS OR THIRD PARTIES.\n(iii) ANY CONTENT OBTAINED FROM THE SERVICES.\nOR (iv) UNAUTHORIZED ACCESS, USE OR ALTERATION OF YOUR TRANSMISSIONS OR CONTENT.",
+      "services": [
+        "houseparty"
+      ],
+      "title": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9038": {
+      "id": "9038",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 55737,
+      "quoteStart": 55589,
+      "quoteText": "If the revision, in our sole discretion, is material we will notify you via email to the email associated with your account or through the Services.",
+      "services": [
+        "houseparty"
+      ],
+      "title": "Users should revisit the terms periodically, although in case of material changes, the service will notify",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users should revisit the terms periodically, although in case of material changes, the service will notify",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9040": {
+      "id": "9040",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 29585,
+      "quoteStart": 29234,
+      "quoteText": "By submitting, posting or displaying User Content on or through the Services, you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute such Content in any and all media or distribution methods (now known or later developed).",
+      "services": [
+        "houseparty"
+      ],
+      "title": "This service can use your content for all their existing and future services",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service can use your content for all their existing and future services",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9041": {
+      "id": "9041",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 38259,
+      "quoteStart": 37824,
+      "quoteText": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces that are provided by Life On Air (and only pursuant to those terms and conditions), unless you have been specifically allowed to do so in a separate agreement with Life On Air (NOTE: scraping the Services without the prior consent of Life On Air is expressly prohibited);",
+      "services": [
+        "houseparty"
+      ],
+      "title": "Users cannot scrape the website of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users cannot scrape the website of the service",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "12506": {
+      "id": "12506",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 21000,
+      "quoteStart": 20846,
+      "quoteText": "YOU ARE WAIVING YOUR RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS ACTION OR REPRESENTATIVE PROCEEDING.",
+      "services": [
+        "houseparty"
+      ],
+      "title": "You waive your right to a class action.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your right to a class action.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "houseparty.com",
+    "app.houseparty.com"
+  ]
+}

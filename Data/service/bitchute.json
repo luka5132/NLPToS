@@ -1,0 +1,53 @@
+{
+  "alexa": 24340,
+  "class": false,
+  "links": {},
+  "points": [
+    "9518",
+    "9519"
+  ],
+  "pointsData": {
+    "9518": {
+      "id": "9518",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 12593,
+      "quoteStart": 12466,
+      "quoteText": "BitChute's failure to enforce any right or provision of these Terms will not be considered a waiver of such right or provision.",
+      "services": [
+        "bitchute"
+      ],
+      "title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9519": {
+      "id": "9519",
+      "needModeration": false,
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 13475,
+      "quoteStart": 13238,
+      "quoteText": "The Terms, and your relationship with BitChute under the Terms, shall be governed by English law.\nYou and BitChute agree to submit to the exclusive jurisdiction of the courts of England to resolve any legal matter arising from the Terms.",
+      "services": [
+        "bitchute"
+      ],
+      "title": "The court of law governing the terms is in England",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in location X",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "bitchute.com"
+  ]
+}

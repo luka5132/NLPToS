@@ -1,0 +1,139 @@
+{
+  "class": false,
+  "links": {},
+  "points": [
+    "4953",
+    "4956",
+    "4957",
+    "4959",
+    "4960",
+    "4962"
+  ],
+  "pointsData": {
+    "4953": {
+      "id": "4953",
+      "needModeration": false,
+      "quoteDoc": "T & C",
+      "quoteEnd": 9838,
+      "quoteStart": 9793,
+      "quoteText": "Cookie Policy</strong> We do not use cookies.",
+      "services": [
+        "web&seodesigners"
+      ],
+      "title": "The service provides a complete list of all cookies set by its website",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides a complete list of all cookies set by its website",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4956": {
+      "id": "4956",
+      "needModeration": false,
+      "quoteDoc": "T & C",
+      "quoteEnd": 10081,
+      "quoteStart": 9919,
+      "quoteText": "<strong>Warranty</strong> Our service is provided \"as is\".\nThere is no warranty of any kind including warranty of merchantability, usability, or non-infringement.",
+      "services": [
+        "web&seodesigners"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4957": {
+      "id": "4957",
+      "needModeration": false,
+      "quoteDoc": "T & C",
+      "quoteEnd": 9914,
+      "quoteStart": 9839,
+      "quoteText": "Please note that we are not responsible for other websites we may link.</p>",
+      "services": [
+        "web&seodesigners"
+      ],
+      "title": "The service is not responsible for linked or (clearly) quoted content from third-party content providers",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is not responsible for linked or (clearly) quoted content from third-party content providers",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4959": {
+      "id": "4959",
+      "needModeration": false,
+      "quoteDoc": "T & C",
+      "quoteEnd": 7906,
+      "quoteStart": 7865,
+      "quoteText": " Privacy, Security, Cookies and Warranty ",
+      "services": [
+        "web&seodesigners"
+      ],
+      "title": "The terms for this service are easy to read",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The terms for this service are easy to read",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4960": {
+      "id": "4960",
+      "needModeration": false,
+      "quoteDoc": "T & C",
+      "quoteEnd": 8326,
+      "quoteStart": 8241,
+      "quoteText": "Your name, email address and optional information regarding your needs will be asked.",
+      "services": [
+        "web&seodesigners"
+      ],
+      "title": "The service provides details about what kinds of personal information they collect",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides details about what kinds of personal information they collect",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4962": {
+      "id": "4962",
+      "needModeration": false,
+      "quoteDoc": "T & C",
+      "quoteEnd": 9187,
+      "quoteStart": 8526,
+      "quoteText": "Right of Access, Rectification and Erasure</strong> You have the right to ask us to advise you of the scope of information we process about you, the purpose and nature of the processing, and information on who we share it with.\nYou can also request to update, correct, or delete it at any time.\nYou can do any of the above by emailing gdpr@webseodesigners.com.\nWe will reply to your request as soon as possible, or at the latest within one calendar month.\nTo ensure that the personal information we retain is up-to-date, please email us.\nIf any customer remains dissatisfied, they are notified of their rights to refer their complaint to the relevant Ombudsman.",
+      "services": [
+        "web&seodesigners"
+      ],
+      "title": "The service provides a complaint mechanism for the handling of personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides a complaint mechanism for the handling of personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "webseodesigners.com"
+  ]
+}

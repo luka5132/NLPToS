@@ -1,0 +1,30 @@
+{
+  "alexa": 1000000,
+  "class": false,
+  "links": {},
+  "points": [
+    "5190"
+  ],
+  "pointsData": {
+    "5190": {
+      "id": "5190",
+      "needModeration": false,
+      "services": [
+        "nexon"
+      ],
+      "title": "The service provides details about what kinds of personal information they collect",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides details about what kinds of personal information they collect",
+        "point": "good",
+        "score": 30,
+        "tldr": "The Privacy Policy provides details about information Nexon collects in section \"I. INFORMATION WE COLLECT\""
+      }
+    }
+  },
+  "urls": [
+    "company.nexon.com",
+    "nexon.com"
+  ]
+}

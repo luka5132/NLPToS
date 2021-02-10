@@ -1,0 +1,214 @@
+{
+  "alexa": 13641,
+  "class": false,
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "https://www.jagex.com/en-GB/terms/privacy"
+    },
+    "Terms and Conditions": {
+      "name": "Terms and Conditions",
+      "url": "https://www.jagex.com/en-GB/terms"
+    }
+  },
+  "points": [
+    "1649",
+    "8030",
+    "8050",
+    "8052",
+    "8054",
+    "8063",
+    "8065",
+    "8072",
+    "8074"
+  ],
+  "pointsData": {
+    "1649": {
+      "discussion": "https://groups.google.com/d/topic/tosdr/MRYoI3efHpU/discussion",
+      "id": "1649",
+      "needModeration": false,
+      "quoteDoc": "Terms and Conditions",
+      "quoteEnd": 29051,
+      "quoteStart": 28851,
+      "quoteText": "restrict access to or delete Virtual Currency or anything acquired by means of Virtual Currency.\nThese actions may result in loss of real money paid in prohibited transactions, such as Account trading",
+      "services": [
+        "jagex"
+      ],
+      "set": "set+service+and+topic",
+      "slug": "MRYoI3efHpU",
+      "title": "The service can delete specific content without prior notice and without a reason",
+      "topics": [
+        "ownership"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete specific content without reason and may do it without prior notice",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Jagex may at any time and at their sole discretion delete virtual items and currencies bought with real money. "
+      }
+    },
+    "8030": {
+      "id": "8030",
+      "needModeration": false,
+      "quoteDoc": "Cookies Policy",
+      "quoteEnd": 3452,
+      "quoteStart": 3365,
+      "quoteText": "If you disallow Cookies, your use of our website, products or services may be impaired.",
+      "services": [
+        "jagex"
+      ],
+      "title": "Blocking cookies may limit your ability to use the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Blocking first party cookies may limit your ability to use the service",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8050": {
+      "id": "8050",
+      "needModeration": false,
+      "quoteDoc": "Cookies Policy",
+      "quoteEnd": 5207,
+      "quoteStart": 5043,
+      "quoteText": "We encourage you to review the privacy and cookies polices of the third parties we work with for more information about cookies they set and how to manage them.</p>",
+      "services": [
+        "jagex"
+      ],
+      "title": "The service refers users to external documents for more information",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service refers users to external documents for more information",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8052": {
+      "id": "8052",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 2555,
+      "quoteStart": 2413,
+      "quoteText": "This website is not intended for children under 13 years old and we do not knowingly collect data relating to children under 13 years old.</p>",
+      "services": [
+        "jagex"
+      ],
+      "title": "This service is only available to users of a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8054": {
+      "id": "8054",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 7611,
+      "quoteStart": 7430,
+      "quoteText": "Aggregated Data may be derived from your personal data but is not considered personal data in law as this data does <strong>not</strong> directly or indirectly reveal your identity.",
+      "services": [
+        "jagex"
+      ],
+      "title": "Your personal data is aggregated into statistics",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your personal data is aggregated into statistics",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8063": {
+      "id": "8063",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 20461,
+      "quoteStart": 20253,
+      "quoteText": "We will only use your personal data for the purposes for which we collected it, unless we reasonably consider that we need to use it for another reason and that reason is compatible with the original purpose.",
+      "services": [
+        "jagex"
+      ],
+      "title": "Your personal data is used for limited purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your personal data is used for limited purposes",
+        "point": "good",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8065": {
+      "id": "8065",
+      "quoteDoc": "Terms and Conditions",
+      "quoteEnd": 19605,
+      "quoteStart": 19330,
+      "quoteText": "Jagex reserves the right to stop offering a Jagex Product or a particular part of a Jagex Product at any time either permanently or temporarily, at which point any license granted to you to use the Jagex Product or a part thereof will be automatically terminated or suspended",
+      "services": [
+        "jagex"
+      ],
+      "title": "They may stop providing the service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "They may stop providing the service at any time",
+        "point": "bad",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8072": {
+      "id": "8072",
+      "quoteDoc": "Terms and Conditions",
+      "quoteEnd": 22545,
+      "quoteStart": 22455,
+      "quoteText": "You have the ability to remove User Content which you have posted on a Jagex Product forum",
+      "services": [
+        "jagex"
+      ],
+      "title": "You can delete your content from this service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can delete your content from this service",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8074": {
+      "id": "8074",
+      "quoteDoc": "Terms and Conditions",
+      "quoteEnd": 26556,
+      "quoteStart": 26403,
+      "quoteText": "You agree to waive any moral rights to the extent permitted by law and that you will not withdraw the submission or attempt to make a charge for its use.",
+      "services": [
+        "jagex"
+      ],
+      "title": "You sign away moral rights",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your moral rights",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "jagex.com",
+    "runescape.com"
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "alexa": 501,
+  "class": false,
+  "links": {},
+  "points": [
+    "4395",
+    "4396",
+    "4397",
+    "4425",
+    "4430",
+    "4517",
+    "4526",
+    "4527",
+    "4530",
+    "4531",
+    "4533",
+    "4535",
+    "4538",
+    "4539"
+  ],
+  "pointsData": {
+    "4395": {
+      "id": "4395",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 5836,
+      "quoteStart": 5254,
+      "quoteText": "INDEMNITY\n<p>You agree to indemnify and hold Us, and Our subsidiaries, affiliates, officers, agents, co-branders or other partners, and employees, harmless from any alleged claim or demand, including reasonable attorney fees, made by any third party due to or arising out of Your use of the Service, Your connection to the Service, Your violation of the TOS, or Your violation of any rights of another, whether You are a registered user or not.\nYou are solely responsible for Your actions when using the Service, including, but not limited to, costs incurred for Internet access.</p",
+      "services": [
+        "discogs"
+      ],
+      "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+        "point": "bad",
+        "score": 60,
+        "tldr": "INDEMNITY\r\n\r\nYou agree to indemnify and hold Discogs, and its subsidiaries, affiliates, officers, agents, co-branders or other partners, and employees, harmless from any alleged claim or demand, including reasonable attorney fees, made by any third party due to or arising out of Your use of the Service, Your connection to the Service, Your violation of the TOS, or Your violation of any rights of another, whether You are a registered user or not. You are solely responsible for Your actions when using the Service, including, but not limited to, costs incurred for Internet access."
+      }
+    },
+    "4396": {
+      "id": "4396",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 6479,
+      "quoteStart": 6167,
+      "quoteText": "You are entirely responsible for any and all activities which occur under Your account if You do not maintain the confidentiality of Your password and account.\nFurthermore, You are entirely responsible for any and all activities which occur under Your account by You or someone You authorize to use Your account.",
+      "services": [
+        "discogs"
+      ],
+      "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "The ToS state under the headline \"USER ACCOUNT, PASSWORD, AND SECURITY\": \r\n\"[...] You are entirely responsible for any and all activities which occur under Your account if You do not maintain the confidentiality of Your password and account. Furthermore, You are entirely responsible for any and all activities which occur under Your account by You or someone You authorize to use Your account. [...]\""
+      }
+    },
+    "4397": {
+      "id": "4397",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 6601,
+      "quoteStart": 6480,
+      "quoteText": "You may change Your password at any time.\nYou may also set up a new account and close an old one at Your convenience.</p>",
+      "services": [
+        "discogs"
+      ],
+      "title": "You have the right to leave this service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You have the right to leave this service at any time",
+        "point": "good",
+        "score": 15,
+        "tldr": "The ToS state under \"USER ACCOUNT, PASSWORD, AND SECURITY\": \r\n\"[...] You may change Your password at any time; You may also set up a new account and close an old one at Your convenience. [...]\""
+      }
+    },
+    "4425": {
+      "id": "4425",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 10675,
+      "quoteStart": 10627,
+      "quoteText": "(2) not to use the Service for illegal purposes.",
+      "services": [
+        "discogs"
+      ],
+      "title": "Users agree not to use the service for illegal purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree not to use the service for illegal purposes",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Discogs' ToS state under \"USER CONDUCT\":\r\n\r\n\"You agree: [...] (2) not to use the Service for illegal purposes; (3) not to interfere or disrupt networks connected to the Service; and (4) to comply with all regulations, policies and procedures of networks connected to the Service.\r\n\r\nThe Service makes use of the Internet to send and receive certain messages; therefore, Your conduct is subject to Internet regulations, policies and procedures. You will not use the Service for chain letters, junk mail, spamming or any use of distribution lists to any person who has not given specific permission to be included in such a process.\r\n\r\nYou agree not to transmit through the Service any unlawful, harassing, libelous, abusive, threatening, or harmful material of any kind or nature. You further agrees not to transmit any material that encourages conduct that could constitute a criminal offense, give rise to civil liability or otherwise violate any applicable local, state, national or international law or regulation. Attempts to gain unauthorized access to other computer systems are prohibited.\r\n\r\nYou shall not interfere with another person’s use and enjoyment of the Service or another entity's use and enjoyment of similar services.\""
+      }
+    },
+    "4430": {
+      "id": "4430",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 13635,
+      "quoteStart": 13452,
+      "quoteText": "You grant a non-exclusive, non-revocable, transferable right to Us to use Your user-generated content, unrestricted in time and territory, for the purpose of rendering the Service.</p",
+      "services": [
+        "discogs"
+      ],
+      "title": "Users grant Discogs the right to use their content across all their services",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The copyright license that users grant this service is limited to the parties that make up the service's broader platform.",
+        "irrelevant": false,
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Discogs and its related platforms are based on user content. As such, by using the service, users grant Discogs a non-revocable and transferable right to use their content for as long as they wish, wherever they wish."
+      }
+    },
+    "4517": {
+      "id": "4517",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 11215,
+      "quoteStart": 11025,
+      "quoteText": "You will not use the Service for chain letters, junk mail, spamming or any use of distribution lists to any person who has not given specific permission to be included in such a process.</p>",
+      "services": [
+        "discogs"
+      ],
+      "title": "This service prohibits users sending chain letters, junk mail, spam or any unsolicited messages",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service prohibits users sending chain letters, junk mail, spam or any unsolicited messages",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "The ToS state under \"USER CONDUCT\": \"You will not use the Service for chain letters, junk mail, spamming or any use of distribution lists to any person who has not given specific permission to be included in such a process.\""
+      }
+    },
+    "4526": {
+      "id": "4526",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 11691,
+      "quoteStart": 11613,
+      "quoteText": "Attempts to gain unauthorized access to other computer systems are prohibited.",
+      "services": [
+        "discogs"
+      ],
+      "title": "Discogs prohibits users from attempting to gain unauthorized access to other computer systems",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service prohibits users from attempting to gain unauthorized access to other computer systems",
+        "point": "neutral",
+        "score": 20,
+        "tldr": "Under \"USER CONDUCT\", Discogs' ToS state: \"Attempts to gain unauthorized access to other computer systems are prohibited.\""
+      }
+    },
+    "4527": {
+      "id": "4527",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 11840,
+      "quoteStart": 11699,
+      "quoteText": "You shall not interfere with another person’s use and enjoyment of the Service or another entity's use and enjoyment of similar services.</p>",
+      "services": [
+        "discogs"
+      ],
+      "title": "Discogs users shall not interfere with another person's enjoyment of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users shall not interfere with another person's enjoyment of the service",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Discogs' ToS state: \"You shall not interfere with another person’s use and enjoyment of the Service or another entity's use and enjoyment of similar services.\"\r\nThis statement is kept very vague and could potentially be used as grounds for censorship or account deletion."
+      }
+    },
+    "4530": {
+      "id": "4530",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 14638,
+      "quoteStart": 14243,
+      "quoteText": "DISCLAIMER OF WARRANTIES\n<p>YOU EXPRESSLY UNDERSTAND AND AGREE THAT:</p>\n<p>(a) YOUR USE OF THE SERVICE IS AT YOUR SOLE RISK.\nTHE SERVICE ARE PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS.\nWE EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT",
+      "services": [
+        "discogs"
+      ],
+      "title": "The Discogs website is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Discogs disclaims any express or implied warranties."
+      }
+    },
+    "4531": {
+      "id": "4531",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 14791,
+      "quoteStart": 14721,
+      "quoteText": "(ii) THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE,",
+      "services": [
+        "discogs"
+      ],
+      "title": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+        "point": "bad",
+        "score": 30,
+        "tldr": "Under \"DISCLAIMER OF WARRANTIES\", Discogs' ToS state that the website will not warrant \"UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE\" service."
+      }
+    },
+    "4533": {
+      "id": "4533",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 15095,
+      "quoteStart": 15046,
+      "quoteText": "(V) ANY ERRORS IN THE SOFTWARE WILL BE CORRECTED.",
+      "services": [
+        "discogs"
+      ],
+      "title": "Discogs does not guarantee that any software errors will be corrected",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service does not guarantee that software errors will be corrected",
+        "point": "bad",
+        "score": 50,
+        "tldr": "(b) DISCOGS MAKES NO WARRANTY THAT [...] (V) ANY ERRORS IN THE SOFTWARE WILL BE CORRECTED."
+      }
+    },
+    "4535": {
+      "id": "4535",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 15390,
+      "quoteStart": 15100,
+      "quoteText": "<p>(c) ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SERVICE IS DONE AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA OR OTHER LIABILITY THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL.",
+      "services": [
+        "discogs"
+      ],
+      "title": "Users are responsible for any risks, damages, or losses they may incur by downloading materials",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users are responsible for any risks, damages, or losses they may incur by downloading materials",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Discogs is not liable for any damages to the users' computer systems that occur as a result of downloading material from Discogs."
+      }
+    },
+    "4538": {
+      "id": "4538",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 17249,
+      "quoteStart": 16882,
+      "quoteText": "The TOS is governed by and interpreted in accordance with the laws of the State of Oregon, United States of America, without regard to principles of conflicts of laws.\nThe parties irrevocably and unconditionally submit to the exclusive jurisdiction of the courts of the State of Oregon with respect to any dispute or claim arising out of or in connection with the TOS",
+      "services": [
+        "discogs"
+      ],
+      "title": "The court of law governing Discogs' terms is in the State of Oregon, United States of America",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in location X",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Any conflicts regarding Discogs' Terms of Service will be submitted to the courts of the State of Oregon, USA. The Terms will be interpreted according to the laws of Oregon. By using Discogs, users agree to this exclusive jurisdiction."
+      }
+    },
+    "4539": {
+      "id": "4539",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 17598,
+      "quoteStart": 17379,
+      "quoteText": "If a court finds any portion of the TOS to be unenforceable or invalid, that portion will be enforced to the fullest extent permitted by applicable law and the remainder of the TOS will remain valid and enforceable.</p>",
+      "services": [
+        "discogs"
+      ],
+      "title": "Invalidity of any portion of Discogs' Terms of Service does not entail invalidity of its remainder",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Should one portion of the ToS be invalid, Discogs will enforce it as much as possible under applicable law. The invalidity of one portion does not affect any other provision of the ToS."
+      }
+    }
+  },
+  "urls": [
+    "discogs.com",
+    "comicogs.com",
+    "filmo.gs",
+    "gearogs.com",
+    "vinylhub.com",
+    "bookogs.com",
+    "posterogs.com"
+  ]
+}

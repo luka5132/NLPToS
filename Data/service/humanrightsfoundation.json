@@ -1,0 +1,94 @@
+{
+  "class": false,
+  "links": {},
+  "points": [
+    "10981",
+    "12333",
+    "12334",
+    "12335"
+  ],
+  "pointsData": {
+    "10981": {
+      "id": "10981",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 1729,
+      "quoteStart": 1657,
+      "quoteText": "\nIf you log out of your account, the login cookies will be removed.</p>\n",
+      "services": [
+        "humanrightsfoundation"
+      ],
+      "title": "This service only uses temporary session cookies",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service only uses temporary session cookies",
+        "point": "good",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "12333": {
+      "id": "12333",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 304,
+      "quoteStart": 164,
+      "quoteText": " we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.</p>",
+      "services": [
+        "humanrightsfoundation"
+      ],
+      "title": "This service collects your IP address for location use",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service collects your IP address for location use",
+        "point": "neutral",
+        "privacyRelated": true,
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "12334": {
+      "id": "12334",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 3295,
+      "quoteStart": 3105,
+      "quoteText": "<p>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us.",
+      "services": [
+        "humanrightsfoundation"
+      ],
+      "title": "This service allows you to retrieve an archive of your data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service allows you to retrieve an archive of your data",
+        "point": "good",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "12335": {
+      "id": "12335",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 3367,
+      "quoteStart": 3296,
+      "quoteText": "You can also request that we erase any personal data we hold about you.",
+      "services": [
+        "humanrightsfoundation"
+      ],
+      "title": "You can delete your content from this service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can delete your content from this service",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "humanrights.foundation"
+  ]
+}

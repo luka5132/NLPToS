@@ -1,0 +1,292 @@
+{
+  "alexa": 553,
+  "class": false,
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "http://www.webmd.com/about-webmd-policies/about-privacy-policy?ss=ftr#part7"
+    }
+  },
+  "points": [
+    "11791",
+    "11792",
+    "11793",
+    "11794",
+    "11795",
+    "11796",
+    "11797",
+    "7756",
+    "7758",
+    "7759",
+    "9419",
+    "9708",
+    "9709"
+  ],
+  "pointsData": {
+    "7756": {
+      "id": "7756",
+      "quoteDoc": "Cookie Policy",
+      "quoteEnd": 12027,
+      "quoteStart": 11958,
+      "quoteText": "The WebMD Sites do not respond to web browser \"do not track\" signals.",
+      "services": [
+        "webmd"
+      ],
+      "title": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7758": {
+      "id": "7758",
+      "needModeration": false,
+      "quoteDoc": "Terms and Conditions of Use",
+      "quoteEnd": 20569,
+      "quoteStart": 20289,
+      "quoteText": "If any provision of these Terms and Conditions is found to be invalid by any court having competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of these Terms and Conditions, which shall remain in full force and effect.",
+      "services": [
+        "webmd"
+      ],
+      "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7759": {
+      "id": "7759",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 32606,
+      "quoteStart": 32412,
+      "quoteText": "The WebMD Sites are not designed or intended to attract children under the age of 13.\nThe WebMD Sites do not collect personal information from any person we actually know is under the age of 13.",
+      "services": [
+        "webmd"
+      ],
+      "title": "This service is only available to users of a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9419": {
+      "id": "9419",
+      "needModeration": false,
+      "quoteDoc": "Terms and Conditions of Use",
+      "quoteEnd": 18744,
+      "quoteStart": 18315,
+      "quoteText": "You agree to defend, indemnify, and hold WebMD, its officers, directors, employees, agents, licensors, and suppliers, harmless from and against any claims, actions or demands, liabilities and settlements including without limitation, reasonable legal and accounting fees, resulting from, or alleged to result from: (a) your use of the Site, (b) any User Content you post or upload, (c) your use of or reliance on any User Content",
+      "services": [
+        "webmd"
+      ],
+      "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9708": {
+      "id": "9708",
+      "needModeration": false,
+      "quoteDoc": "Terms and Conditions of Use",
+      "quoteEnd": 5936,
+      "quoteStart": 5746,
+      "quoteText": "Any claims arising in connection with your use of the Site, any Content, or the Public Areas must be brought within one (1) year of the date of the event giving rise to such action occurred.",
+      "services": [
+        "webmd"
+      ],
+      "title": "Users have a reduced time period to take legal action against the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users have a reduced time period to take legal action against the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9709": {
+      "id": "9709",
+      "needModeration": false,
+      "quoteDoc": "Terms and Conditions of Use",
+      "quoteEnd": 20288,
+      "quoteStart": 20139,
+      "quoteText": "These Terms and Conditions are governed by the internal substantive laws of the State of Georgia, without respect to its conflict of laws principles.",
+      "services": [
+        "webmd"
+      ],
+      "title": "The court of law governing the terms is in location X",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in location X",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11791": {
+      "id": "11791",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 21882,
+      "quoteStart": 21326,
+      "quoteText": "In the event of a corporate change in control resulting from, for example, a sale to, or merger with, another entity, or in the event of a sale of assets or a bankruptcy, WebMD reserves the right to transfer your personal information to the new party in control or the party acquiring assets.\nIn the event of such a change, your personal information will continue to be treated in accordance with this Privacy Policy unless any changes to the Privacy Policy are made in accordance with the section below that discusses “Changes to This Privacy Policy.”</p>",
+      "services": [
+        "webmd"
+      ],
+      "title": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11792": {
+      "id": "11792",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 13939,
+      "quoteStart": 13706,
+      "quoteText": "we and our partners use other tracking technologies that collect information about your use of the Services, including mobile identifiers and \"web beacons\" which are small graphic files (sometimes called “clear GIFs” or “web pixels”)",
+      "services": [
+        "webmd"
+      ],
+      "title": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11793": {
+      "id": "11793",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 16632,
+      "quoteStart": 16344,
+      "quoteText": "\nOur ad network vendors use technologies to collect information about your activities on the WebMD Sites and in our flagship WebMD App to provide you cookie-based targeted advertising on our WebMD Sites and on third party websites based upon your browsing activity and your interests.</p>",
+      "services": [
+        "webmd"
+      ],
+      "title": "The service uses your personal data to employ targeted third-party advertising",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service uses your personal data to employ targeted third-party advertising",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11794": {
+      "id": "11794",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 22091,
+      "quoteStart": 21883,
+      "quoteText": "Companies and Contractors that Work with WebMD <p>WebMD works with third party companies and contractors that help us provide the Services and to otherwise assist in the operation of the WebMD Sites and Apps,",
+      "services": [
+        "webmd"
+      ],
+      "title": "Third parties may be involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Third parties may be involved in operating the service",
+        "point": "bad",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11795": {
+      "id": "11795",
+      "needModeration": false,
+      "quoteDoc": "Cookie Policy",
+      "quoteEnd": 6182,
+      "quoteStart": 5882,
+      "quoteText": "Third Party Cookies <p>Sponsors or advertisers on the WebMD Sites may use their own cookies or other tracking technologies in the banner advertisements and sponsored links and on the pages (\"Brand Pages\") on the WebMD Sites that consist solely of advertisements or other content from our advertisers.",
+      "services": [
+        "webmd"
+      ],
+      "title": "Tracking via third-party cookies for other purposes without your consent.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Tracking via third-party cookies for other purposes without your consent.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11796": {
+      "id": "11796",
+      "needModeration": false,
+      "quoteDoc": "Terms and Conditions of Use",
+      "quoteEnd": 3851,
+      "quoteStart": 3787,
+      "quoteText": "The WebMD Site and the Content are provided on an \"as is\" basis.",
+      "services": [
+        "webmd"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11797": {
+      "id": "11797",
+      "needModeration": false,
+      "quoteDoc": "Terms and Conditions of Use",
+      "quoteEnd": 3784,
+      "quoteStart": 3586,
+      "quoteText": "Accordingly, WebMD assumes no liability for or relating to the delay, failure, interruption, or corruption of any data or other information transmitted in connection with use of the WebMD Site.</p>\n",
+      "services": [
+        "webmd"
+      ],
+      "title": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+        "point": "bad",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "webmd.com"
+  ]
+}

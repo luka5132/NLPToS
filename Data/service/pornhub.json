@@ -1,0 +1,276 @@
+{
+  "alexa": 35,
+  "class": "D",
+  "links": {},
+  "points": [
+    "7804",
+    "7805",
+    "7807",
+    "9403",
+    "9405",
+    "9406",
+    "9407",
+    "9408",
+    "9409",
+    "9412",
+    "9413",
+    "9414",
+    "9417"
+  ],
+  "pointsData": {
+    "7804": {
+      "id": "7804",
+      "needModeration": false,
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 30444,
+      "quoteStart": 30323,
+      "quoteText": "\nYou also waive to the full extent permitted by law any and all claims against us related to moral rights in the Content.",
+      "services": [
+        "pornhub"
+      ],
+      "title": "You sign away moral rights",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your moral rights",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7805": {
+      "id": "7805",
+      "needModeration": false,
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 31185,
+      "quoteStart": 31016,
+      "quoteText": "You understand and agree, however, that the Websites may retain, but not display, distribute, or perform, server copies of your videos that have been removed or deleted.",
+      "services": [
+        "pornhub"
+      ],
+      "title": "This service holds onto content that you've deleted",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service holds onto content that you've deleted",
+        "point": "blocker",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7807": {
+      "id": "7807",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 51485,
+      "quoteStart": 50983,
+      "quoteText": "p>\n<p>Additionally, you agree not to:</p>\n<p>·&nbsp;use the Websites in any manner that could disable, overburden, damage, or impair the site or interfere with any other party’s use of the Websites, including their ability to engage in real time activities through the Websites;</p>\n<p>·&nbsp;use any robot, spider, or other automatic device, process, or means to access the Websites for any purpose, including monitoring or copying any of the material on the Websites without our prior written consent",
+      "services": [
+        "pornhub"
+      ],
+      "title": "Spidering or crawling is not allowed",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Spidering or crawling is not allowed",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9403": {
+      "id": "9403",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 60,
+      "quoteStart": 24,
+      "quoteText": "p>Last Modified: December 8, 2020</p",
+      "services": [
+        "pornhub"
+      ],
+      "title": "There is a date of the last update of the terms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "There is a date of the last update of the terms",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9405": {
+      "id": "9405",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 77348,
+      "quoteStart": 77209,
+      "quoteText": "any failure by us to assert a right or provision under these Terms of Service shall not constitute a waiver of such right or provision.</p>",
+      "services": [
+        "pornhub"
+      ],
+      "title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9406": {
+      "id": "9406",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 77617,
+      "quoteStart": 77352,
+      "quoteText": "If any provision of these Terms of Service is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of these Terms of Service, which shall remain in full force and effect.</p>",
+      "services": [
+        "pornhub"
+      ],
+      "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9407": {
+      "id": "9407",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 15511,
+      "quoteStart": 15399,
+      "quoteText": "No Refunds</p>\n<p>PAYMENTS ARE NONREFUNDABLE AND THERE ARE NO REFUNDS OR CREDITS FOR PARTIALLY USED PERIODS.</p>",
+      "services": [
+        "pornhub"
+      ],
+      "title": "The service has a no refund policy",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service has a no refund policy",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9408": {
+      "id": "9408",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 74861,
+      "quoteStart": 74555,
+      "quoteText": "REGARDLESS OF ANY STATUTE OR LAW TO THE CONTRARY, ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THESE TERMS OF SERVICE OR THE WEBSITES MUST BE COMMENCED WITHIN ONE (1)&nbsp;YEAR AFTER THE CAUSE OF ACTION ACCRUES, OTHERWISE, SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.</p>",
+      "services": [
+        "pornhub"
+      ],
+      "title": "Users have a reduced time period to take legal action against the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users have a reduced time period to take legal action against the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9409": {
+      "id": "9409",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 69194,
+      "quoteStart": 68417,
+      "quoteText": "To the extent permitted by applicable law, you agree to defend, indemnify and hold harmless the Websites, their site operator, their parent corporation, their respective affiliates, licensors, service providers, officers, directors, employees, agents, successors and assigns from and against any and all claims, damages, judgments, awards, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney’s fees)&nbsp;arising from: (i)&nbsp;your use of and access to the Websites.\n(ii)&nbsp;your violation of any term of these Terms of Service.\n(iii)&nbsp;your violation of any third party right, including without limitation any copyright, property, or privacy right.\nor (iv)&nbsp;any claim that your Content caused damage to a third party.",
+      "services": [
+        "pornhub"
+      ],
+      "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9412": {
+      "id": "9412",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 56023,
+      "quoteStart": 55712,
+      "quoteText": "the Websites may, but will not have any obligation to, review, monitor, display, reject, refuse to post, store, maintain, accept, or remove any Content posted (including, without limitation, private messages, public comments, public group chat messages, private group chat messages, or private instant messages)",
+      "services": [
+        "pornhub"
+      ],
+      "title": "The service can read your private messages",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can read your private messages",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9413": {
+      "id": "9413",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 76939,
+      "quoteStart": 76751,
+      "quoteText": "The sole and exclusive jurisdiction and venue for any action or proceeding arising out of or related to these Terms of Service shall be in an appropriate court located in Limassol, Cyprus.",
+      "services": [
+        "pornhub"
+      ],
+      "title": "The court of law governing the terms is in location X",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in location X",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9414": {
+      "id": "9414",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 69680,
+      "quoteStart": 69586,
+      "quoteText": "<p>YOU USE THE WEBSITES AT YOUR SOLE RISK.\nWE PROVIDE THE WEBSITES \"AS IS\" AND \"AS AVAILABLE\".",
+      "services": [
+        "pornhub"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9417": {
+      "id": "9417",
+      "quoteDoc": "Terms & Conditions",
+      "quoteEnd": 48976,
+      "quoteStart": 48789,
+      "quoteText": "post any Content containing unsolicited or unauthorized advertising, promotional materials, spam, junk mail, chain letters, pyramid schemes, or any other form of unauthorized solicitation",
+      "services": [
+        "pornhub"
+      ],
+      "title": "This service prohibits users sending chain letters, junk mail, spam or any unsolicited messages",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service prohibits users sending chain letters, junk mail, spam or any unsolicited messages",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "pornhub.com",
+    "modelhub.com"
+  ]
+}

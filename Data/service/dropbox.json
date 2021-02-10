@@ -1,0 +1,361 @@
+{
+  "alexa": 97,
+  "class": false,
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "https://www.dropbox.com/privacy"
+    }
+  },
+  "points": [
+    "11244",
+    "11245",
+    "11689",
+    "11690",
+    "11691",
+    "11692",
+    "11699",
+    "1587",
+    "1602",
+    "679",
+    "6887",
+    "6945",
+    "762",
+    "7770",
+    "7771"
+  ],
+  "pointsData": {
+    "679": {
+      "discussion": "https://groups.google.com/d/topic/tosdr/m4IRrxn4SOo/discussion",
+      "id": "679",
+      "meta": {
+        "author": "Hugo for “Terms of Service; Didn't Read”",
+        "contributors": [
+          "Hugo Roy <hugo@tosdr.org>"
+        ],
+        "license-for-this-file": "This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, .USA",
+        "spec-version": "1.1"
+      },
+      "needModeration": false,
+      "quoteDoc": "Terms",
+      "quoteEnd": 17466,
+      "quoteStart": 16814,
+      "quoteText": "<p>We may revise these Terms from time to time to better reflect:</p>\n<p>(a) changes to the law,</p>\n<p>(b) new regulatory requirements, or</p>\n<p>(c) improvements or enhancements made to our Services.</p>\n<p>If an update affects your use of the Services or your legal rights as a user of our Services, we’ll notify you prior to the update's effective date by sending an email to the email address associated with your account or via an in-product notification.\nThese updated terms will be effective no less than 30 days from when we notify you.</p>\n<p>If you don’t agree to the updates we make, please cancel your account before they become effective.",
+      "services": [
+        "dropbox"
+      ],
+      "slug": "any-time-with-notice-dropbox",
+      "title": "When the service wants to change its terms, users are notified a month or more in advance",
+      "topics": [
+        "changes-notice"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "When the service wants to make a material change to its terms, users are notified at least 30 days in advance",
+        "point": "good",
+        "score": 40,
+        "tldr": "They can change the terms of service any time they see fit, but they will notify the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
+      }
+    },
+    "762": {
+      "discussion": "https://groups.google.com/forum/#!topic/tosdr/td68YSswb-w",
+      "id": "762",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 32806,
+      "quoteStart": 32631,
+      "quoteText": "We may revise this Privacy Policy from time to time, and will post the most current version on our website.\nIf a revision meaningfully reduces your rights, we will notify you.",
+      "services": [
+        "dropbox"
+      ],
+      "set": "set+service+and+topic",
+      "slug": "td68YSswb-w",
+      "title": "Dropbox will notify of changes on the terms",
+      "topics": [
+        "changes-notice"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may change its terms at any time, but the user will receive notification of the changes.",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Dropbox will notify of changes on the terms"
+      }
+    },
+    "1587": {
+      "discussion": "https://groups.google.com/forum#!topic/tosdr/SSpj3ATtA4Q",
+      "id": "1587",
+      "needModeration": false,
+      "quoteDoc": "Terms",
+      "quoteEnd": 6131,
+      "quoteStart": 6088,
+      "quoteText": "Refunds are only issued if required by law.",
+      "services": [
+        "dropbox"
+      ],
+      "slug": "SSpj3ATtA4Q",
+      "title": "no refund policy",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service has a no refund policy",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "No refund policy"
+      }
+    },
+    "1602": {
+      "approved": false,
+      "id": "1602",
+      "needModeration": false,
+      "quoteDoc": "Terms",
+      "quoteEnd": 1635,
+      "quoteStart": 1517,
+      "quoteText": "These Terms don’t give us any rights to Your Stuff except for the limited rights that enable us to offer the Services.",
+      "services": [
+        "dropbox"
+      ],
+      "slug": "mxXLCR4apwqnHwovB",
+      "subbmittedTimestamp": 1498250035824,
+      "submittedBy": "YzXyGdyCicZ6xQS2N",
+      "title": "You maintain ownership of your data",
+      "topics": [
+        "ownership",
+        "ownership"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "You maintain ownership of your data",
+        "point": "good",
+        "score": 50,
+        "sources": [
+          "https://www.dropbox.com/terms"
+        ],
+        "tldr": "\"These Terms don't give us any rights to Your Stuff except for the limited rights that enable us to offer the Services.\""
+      }
+    },
+    "6887": {
+      "id": "6887",
+      "needModeration": false,
+      "quoteDoc": "Terms",
+      "quoteEnd": 22798,
+      "quoteStart": 22358,
+      "quoteText": "We collect and use the personal data described above in order to provide you with the Services in a reliable and secure manner.\nWe also collect and use personal data for our legitimate business needs.\nTo the extent we process your personal data for other purposes, we ask for your consent in advance or require that our partners obtain such consent.\nFor more information on the lawful bases for processing your data, please see our FAQ.\n</p",
+      "services": [
+        "dropbox"
+      ],
+      "title": "The service provides information about how they intend to use your personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides information about how they intend to use your personal data",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6945": {
+      "id": "6945",
+      "needModeration": false,
+      "quoteDoc": "Terms",
+      "quoteEnd": 23050,
+      "quoteStart": 22946,
+      "quoteText": "We may share information as discussed below, but we won’t sell it to advertisers or other third parties.",
+      "services": [
+        "dropbox"
+      ],
+      "title": "This service does not sell your personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not sell your personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7770": {
+      "id": "7770",
+      "needModeration": false,
+      "quoteDoc": "Terms",
+      "quoteEnd": 29123,
+      "quoteStart": 28923,
+      "quoteText": "Where <p>\n<em>Around the world.</em> To provide you with the Services, we may store, process, and transmit data in the United States and locations around the world—including those outside your country",
+      "services": [
+        "dropbox"
+      ],
+      "title": "Your data may be processed and stored anywhere in the world",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your data may be processed and stored anywhere in the world",
+        "point": "bad",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7771": {
+      "id": "7771",
+      "needModeration": false,
+      "quoteDoc": "Terms",
+      "quoteEnd": 32579,
+      "quoteStart": 32444,
+      "quoteText": "p> If we’re involved in a reorganization, merger, acquisition, or sale of our assets, your data may be transferred as part of that deal",
+      "services": [
+        "dropbox"
+      ],
+      "title": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11244": {
+      "id": "11244",
+      "quoteDoc": "Privacy Policy FAQ",
+      "quoteEnd": 8808,
+      "quoteStart": 8522,
+      "quoteText": "Trusted third parties include:</p>\n<ul>\n<li>Dropbox, Inc.</li>\n<li>Amazon Web Services, Inc.</li>\n<li>Teleperformance A.E.</li>\n<li>Salesforce.com, LLC</li>\n<li>Serenova, LLC (formerly LiveOps Cloud Platform, LLC)</li>\n<li>Google LLC</li>\n<li>Zendesk, Inc.</li>\n<li>Oracle America, Inc.",
+      "services": [
+        "dropbox"
+      ],
+      "title": "Many third parties are involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Many third parties are involved in operating the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11245": {
+      "id": "11245",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 21131,
+      "quoteStart": 21015,
+      "quoteText": "We may also use third-party service providers that set cookies and similar technologies to promote Dropbox services.",
+      "services": [
+        "dropbox"
+      ],
+      "title": "Tracking via third-party cookies for other purposes without your consent.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Tracking via third-party cookies for other purposes without your consent.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11689": {
+      "id": "11689",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 9516,
+      "quoteStart": 9481,
+      "quoteText": "THE SERVICES ARE PROVIDED \"AS IS.\" ",
+      "services": [
+        "dropbox"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11690": {
+      "id": "11690",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 28110,
+      "quoteStart": 27963,
+      "quoteText": "You can access, amend, download, and delete your personal information by logging into your Dropbox account and going to your account settings page.",
+      "services": [
+        "dropbox"
+      ],
+      "title": "You can request access and deletion of personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can request access and deletion of personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11691": {
+      "id": "11691",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 20614,
+      "quoteStart": 20510,
+      "quoteText": "We use technologies like cookies and pixel tags to provide, improve, protect, and promote our Services.\n",
+      "services": [
+        "dropbox"
+      ],
+      "title": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11692": {
+      "id": "11692",
+      "quoteDoc": "Terms",
+      "quoteEnd": 21125,
+      "quoteStart": 21023,
+      "quoteText": "If our systems receive a DNT:1 signal from your browser, we’ll respond to that signal as outlined here",
+      "services": [
+        "dropbox"
+      ],
+      "title": "This service respects your browser's Do Not Track (DNT) headers",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service respects your browser's Do Not Track (DNT) headers",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11699": {
+      "id": "11699",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 20910,
+      "quoteStart": 20810,
+      "quoteText": "You can set your browser to not accept cookies, but this may limit your ability to use the Services.",
+      "services": [
+        "dropbox"
+      ],
+      "title": "Blocking first party cookies may limit your ability to use the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Blocking first party cookies may limit your ability to use the service",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "dropbox.com",
+    "dropboxforum.com"
+  ]
+}

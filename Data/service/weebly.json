@@ -1,0 +1,106 @@
+{
+  "alexa": 377,
+  "class": false,
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "http://www.weebly.com/privacy/"
+    },
+    "Terms of Service": {
+      "name": "Terms of Service",
+      "url": "http://www.weebly.com/terms-of-service/"
+    }
+  },
+  "points": [
+    "1383",
+    "4683",
+    "4684",
+    "4685"
+  ],
+  "pointsData": {
+    "1383": {
+      "discussion": "https://groups.google.com/d/topic/tosdr/QX9Z8u9PBCI/discussion",
+      "id": "1383",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 77528,
+      "quoteStart": 77400,
+      "quoteText": "You and Weebly agree to submit to the\npersonal and exclusive jurisdiction of the courts located within San Francisco,\nCalifornia",
+      "services": [
+        "weebly"
+      ],
+      "set": "set+service+and+topic",
+      "slug": "QX9Z8u9PBCI",
+      "title": "This service does not force users into binding arbitration",
+      "topics": [
+        "jurisdiction-law"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not force users into binding arbitration",
+        "point": "good",
+        "score": 50,
+        "tldr": "Weebly settles disputes in court, not through binding arbitration."
+      }
+    },
+    "4683": {
+      "id": "4683",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 78197,
+      "quoteStart": 78058,
+      "quoteText": "The failure\nof Weebly to exercise or enforce any right or provision of these Terms shall\nnot constitute a waiver of such right or provision",
+      "services": [
+        "weebly"
+      ],
+      "title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "4684": {
+      "id": "4684",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 77398,
+      "quoteStart": 77237,
+      "quoteText": "these Terms and the relationship between you\nand Weebly shall be governed by the laws of the State of California without\nregard to its conflict of law provisions",
+      "services": [
+        "weebly"
+      ],
+      "title": "The court of law governing the terms is in the State of California, US",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in location X",
+        "point": "neutral",
+        "score": 0,
+        "tldr": ""
+      }
+    },
+    "4685": {
+      "id": "4685",
+      "needModeration": false,
+      "services": [
+        "weebly"
+      ],
+      "title": "The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "The court of law for Weebly is located in the State of California, USA. The United States have implemented some laws that are detrimental to the privacy of users of US-American services, most noticeably the PATRIOT Act. "
+      }
+    }
+  },
+  "urls": [
+    "weebly.com"
+  ]
+}

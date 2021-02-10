@@ -1,0 +1,426 @@
+{
+  "alexa": 159324,
+  "class": "B",
+  "links": {},
+  "points": [
+    "11601",
+    "11602",
+    "4518",
+    "4519",
+    "4521",
+    "4522",
+    "4523",
+    "4524",
+    "5941",
+    "5945",
+    "6499",
+    "7267",
+    "7268",
+    "7269",
+    "7346",
+    "7678",
+    "7680",
+    "7682",
+    "7683",
+    "7686"
+  ],
+  "pointsData": {
+    "4518": {
+      "id": "4518",
+      "needModeration": false,
+      "quoteDoc": "Legal information",
+      "quoteEnd": 699,
+      "quoteStart": 640,
+      "quoteText": "We do not use cookies or any other tracking technology.</p>",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "ToS;DR does not track you",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service does not track you",
+        "point": "good",
+        "score": 100,
+        "tldr": "The Privacy policy states: \"We do not use cookies or any other tracking technology.\""
+      }
+    },
+    "4519": {
+      "id": "4519",
+      "needModeration": false,
+      "quoteDoc": "About our edit tool",
+      "quoteEnd": 4359,
+      "quoteStart": 4269,
+      "quoteText": "When you log in, you need to use at least an email and a password.\nNicknames are optional.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The service provides details about what kinds of personal information they collect",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides details about what kinds of personal information they collect",
+        "point": "good",
+        "score": 30,
+        "tldr": "The Privacy Policy states: \"When you log in, you need to use at least an email and a password. Nicknames are optional.\""
+      }
+    },
+    "4521": {
+      "id": "4521",
+      "needModeration": false,
+      "quoteDoc": "About our edit tool",
+      "quoteEnd": 4563,
+      "quoteStart": 4424,
+      "quoteText": "When cancelling your account, we scramble your data in our database so you cannot recover your account and we don't lose your contributions",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "ToS;DR will continue using anonymized user-generated content even after erasure of personal information",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service will continue using anonymized user-generated content even after erasure of personal information",
+        "point": "bad",
+        "score": 15,
+        "tldr": "ToS;DR's ToS state: \"When cancelling your account, we scramble your data in our database so you cannot recover your account and we don't loose your contributions.\""
+      }
+    },
+    "4522": {
+      "id": "4522",
+      "needModeration": false,
+      "quoteDoc": "About our edit tool",
+      "quoteEnd": 4739,
+      "quoteStart": 4638,
+      "quoteText": "Phoenix is hosted on Heroku for development purposes.\nPlease refer to their ToS for any more details.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "ToS;DR refers users to Heroku's Terms of Service for more information",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service refers users to external documents for more information",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Referring to its hosting service, ToS;DR's ToS state: \"Phoenix is hosted on Heroku for development purposes. Please refer to their ToS for any more details.\""
+      }
+    },
+    "4523": {
+      "id": "4523",
+      "needModeration": false,
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The terms for ToS;DR are easy to read",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The terms for this service are easy to read",
+        "point": "good",
+        "score": 15,
+        "tldr": "Altogether, ToS and PP only make up eight lines of text."
+      }
+    },
+    "4524": {
+      "id": "4524",
+      "needModeration": false,
+      "quoteDoc": "About our edit tool",
+      "quoteEnd": 4187,
+      "quoteStart": 3905,
+      "quoteText": "Nothing here should be considered legal advice.\nWe express our opinion with no guarantee and we do not endorse any service in any way.\nPlease refer to a qualified attorney for legal advice.\nReading ToS;DR is in no way a replacement for reading the full terms to which you are bound.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "ToS;DR gives no guarantee regarding quality",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This services gives no guarantee regarding quality",
+        "point": "bad",
+        "score": 20,
+        "tldr": "The ToS state: \"Nothing here should be considered legal advice. We express our opinion with no guarantee and we do not endorse any service in any way. Please refer to a qualified attorney for legal advice. Reading ToS;DR is in no way a replacement for reading the full terms to which you are bound.\""
+      }
+    },
+    "5941": {
+      "id": "5941",
+      "needModeration": false,
+      "quoteDoc": "Terms Of Service",
+      "quoteEnd": 4039,
+      "quoteStart": 3953,
+      "quoteText": "We express our opinion with no guarantee and we do not endorse any service in any way.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The service does not guarantee accuracy or reliability of the information provided",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service does not guarantee accuracy or reliability of the information provided",
+        "point": "bad",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5945": {
+      "id": "5945",
+      "needModeration": false,
+      "quoteDoc": "Terms Of Service",
+      "quoteEnd": 4335,
+      "quoteStart": 4269,
+      "quoteText": "When you log in, you need to use at least an email and a password.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The service provides details about what kinds of personal information they collect",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides details about what kinds of personal information they collect",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6499": {
+      "id": "6499",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 756,
+      "quoteStart": 520,
+      "quoteText": "The project has a code of conduct and strives for a welcoming community <p>You acknowledge that the ToS;DR project strives for a welcoming community and, therefore, you commit to comply with the Contributor Covenant Code of Conduct.</p>",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The service provides information about its attitude towards ethical, social or political problems or controversies",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides information about its attitude towards ethical, social or political problems or controversies",
+        "point": "good",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7267": {
+      "id": "7267",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 2570,
+      "quoteStart": 2501,
+      "quoteText": "Contributions are made available only under open and public licences.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "This service employs a broad copyright license over user content including the right to distribute through any media",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can distribute your content through any media known now or in the future ",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7268": {
+      "id": "7268",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 2881,
+      "quoteStart": 2571,
+      "quoteText": "<p>This licence is sublicensable only under any of the following terms and conditions, as applicable depending for example on the type of contributions: Creative Commons BY SA 4.0 (or any later version), an open source/free software licence published by the GNU Project and/or the Free Software Foundation.</p>",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "Copyright license limited for the purposes of that same service but transferable and sublicenseable",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Copyright license limited for the purposes of that same service but transferable and sublicenseable",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7269": {
+      "id": "7269",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 5623,
+      "quoteStart": 5417,
+      "quoteText": "We must not store your passwords unencrypted.\nWe undertake to review our security technologies from time to time, for example if our encryption or hash functions are not considered good enough any more.</p>",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The user is informed about security practices",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The user is informed about security practices",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7346": {
+      "id": "7346",
+      "needModeration": false,
+      "quoteDoc": "Legal information",
+      "quoteEnd": 4423,
+      "quoteStart": 4138,
+      "quoteText": "<p>ToS;DR is Free Software, licensed under the GNU Affero General Public License (AGPL-3.0).\nOffer for Source (zip).\nThe <code>.json</code> data inside the <code>services/</code> and <code>points/</code> directories are also licensed under the Attribution - Share Alike (CC BY-SA 3.0).",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "Features of the website are made available under a free software license",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Features of the website are made available under a free software license",
+        "point": "good",
+        "score": 90,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7678": {
+      "id": "7678",
+      "needModeration": false,
+      "quoteDoc": "Legal information",
+      "quoteEnd": 311,
+      "quoteStart": 225,
+      "quoteText": "We express our opinion with no guarantee and we do not endorse any service in any way.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The service does not guarantee accuracy or reliability of the information provided",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service does not guarantee accuracy or reliability of the information provided",
+        "point": "bad",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7680": {
+      "id": "7680",
+      "needModeration": false,
+      "quoteDoc": "Legal information",
+      "quoteEnd": 729,
+      "quoteStart": 703,
+      "quoteText": "We are hosted by 5apps.com",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "Third parties may be involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Third parties may be involved in operating the service",
+        "point": "bad",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7682": {
+      "id": "7682",
+      "needModeration": false,
+      "quoteDoc": "Legal information",
+      "quoteEnd": 1011,
+      "quoteStart": 874,
+      "quoteText": "5apps gives us access to non-personally identifying statistics such as the number of HTTP requests and the amount of data in traffic.</p>",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "This service gathers information about you through third parties",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service gathers information about you through third parties",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7683": {
+      "id": "7683",
+      "quoteDoc": "Legal information",
+      "quoteEnd": 1875,
+      "quoteStart": 1268,
+      "quoteText": "By contributing to this project (e.g.\nby sending an email or by submitting through our interfaces), you agree – unless simultaneously and expressly stated otherwise – that <p>your contribution may be included in the source code of ToS;DR and published under the following copyright license: </p>\n<p>CC BY-SA 3.0 (or any later version approved by more than 50% of voting contributors) with a special exception to allow distribution in a \"larger program\" under the GNU AGPL-3.0 or later.</p>\n<ul>\n<li>http://creativecommons.org/licenses/by-sa/3.0/</li>\n<li>http://www.gnu.org/licenses/agpl-3.0-standalone.html",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7686": {
+      "id": "7686",
+      "needModeration": false,
+      "quoteDoc": "Legal information",
+      "quoteEnd": 3129,
+      "quoteStart": 3101,
+      "quoteText": "List of changes to this page",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "This service provides archives of their terms of service so that changes can be viewed over time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service provides archives of their Terms of Service so that changes can be viewed over time",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11601": {
+      "id": "11601",
+      "quoteDoc": "About our edit tool",
+      "quoteEnd": 1227,
+      "quoteStart": 1057,
+      "quoteText": "ToS;DR aims to promote transparency, as the discussions around the terms of service for various web sites occur in public and are subject to debate and review by everyone",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The service provides information about its attitude towards ethical, social or political problems or controversies",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides information about its attitude towards ethical, social or political problems or controversies",
+        "point": "good",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11602": {
+      "id": "11602",
+      "quoteDoc": "About our edit tool",
+      "quoteEnd": 3878,
+      "quoteStart": 3439,
+      "quoteText": "Contact Us <p> Follow us on Twitter! You can also reach us directly on #tosdr at freenode (ping hugoroyd or piks3l[m]).\nIf you get no answers, for instance because a lot of our contributors are not in your timezone, feel free to leave your contact information.\nYou can also contact us by email: team at tosdr.org.\nIf you want to contact the dev team for specific questions about Phoenix, please use this address: phoenix-core at tosdr.org.",
+      "services": [
+        "tos;dr"
+      ],
+      "title": "The service provides a free help desk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides a free help desk",
+        "point": "good",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "tosdr.org"
+  ]
+}

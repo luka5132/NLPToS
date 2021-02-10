@@ -1,0 +1,532 @@
+{
+  "alexa": 76,
+  "class": "C",
+  "links": {},
+  "points": [
+    "4722",
+    "6126",
+    "6128",
+    "6129",
+    "6131",
+    "6132",
+    "6133",
+    "6134",
+    "6135",
+    "6136",
+    "6166",
+    "6167",
+    "6168",
+    "6169",
+    "6170",
+    "6171",
+    "7968",
+    "7969",
+    "7970",
+    "7971",
+    "7974",
+    "7976",
+    "7977",
+    "8424",
+    "8425"
+  ],
+  "pointsData": {
+    "4722": {
+      "id": "4722",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 15053,
+      "quoteStart": 14678,
+      "quoteText": "Any other downloading, copying, or storing of any public Network Content (other than Subscriber Content or content made available via the Stack Overflow API) for other than personal, noncommercial use is expressly prohibited without prior written permission from Stack Overflow or from the copyright holder identified in the copyright notice per the Creative Commons License.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service is only available for use individually and non-commercially.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available for use individually and non-commercially.",
+        "point": "neutral",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6126": {
+      "id": "6126",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 35919,
+      "quoteStart": 35760,
+      "quoteText": "You may opt-out of receiving Stack Overflow email marketing materials by using the unsubscribe link in these communications or by changing your Email Settings.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "You can opt out of promotional communications",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can opt out of promotional communications",
+        "point": "good",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6128": {
+      "id": "6128",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 7768,
+      "quoteStart": 6548,
+      "quoteText": "You must be at least 13 years old to access or use the Network or Services, including without limitation to complete a Stack Overflow account registration.\nBy accessing or using the Services or the Network in any manner, you represent and warrant that you are at least 13 years of age.\nIf you are under 13 years old, you may not, under any circumstances or for any reason, access or use the Services or Network in any manner, and may not provide any personal information to or on the Services or Network (including, for example, a name, address, telephone number or email address).</p>\n<p>If you are located within the European Union, you must be at least 16 years old to access or use the Network or Services, including without limitation to complete a Stack Overflow Account Registration.\nBy accessing or using the Services or the Network in any manner, you represent and warrant that you are at least 16 years of age.\nIf you are under 16 years old, you may not, under any circumstances or for any reason, access or use the Services or Network in any manner, and may not provide any personal information to or on the Services or Network (including, for example, a name, address, telephone number or email address).</p>",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service is only available to users of a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6129": {
+      "id": "6129",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 8496,
+      "quoteStart": 8224,
+      "quoteText": "Stack Overflow reserves the right to refuse, suspend or terminate your access to the public Network if it determines, in its sole discretion, that you have in any way violated these Public Network Terms or are otherwise ineligible to access or use the Network or Services.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "They may stop providing the service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "They may stop providing the service at any time",
+        "point": "bad",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6131": {
+      "id": "6131",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 18895,
+      "quoteStart": 18302,
+      "quoteText": "You will indemnify and hold Stack Overflow, its directors, officers, employees, agents, consultant, contractors, partners, vendors and service providers (including, without limitation, hosting and telecommunications providers) harmless, including costs and attorneys’ fees, from any claim or demand made by any third party due to or arising out of your access to the public Network, use of Stack Overflow products or services made available on the public Network, your violation of this Agreement, or your infringement or any third party using your account, of any intellectual property right.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6132": {
+      "id": "6132",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 20749,
+      "quoteStart": 20471,
+      "quoteText": "Both you and Stack Overflow hereby irrevocably agree to the sole and exclusive personal jurisdiction of the Courts of the State of New York with respect to any action, suit, or proceeding brought by it or against it by the other party in connection with the Network or Services.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in a jurisdiction that is less friendly to user privacy protection.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6133": {
+      "id": "6133",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 22292,
+      "quoteStart": 21509,
+      "quoteText": "YOU AGREE THAT WITH RESPECT TO ALL DISPUTES BETWEEN YOU AND STACK OVERFLOW OR ITS AFFILIATES OR ITS OFFICERS, DIRECTORS, OR EMPLOYEES (WHETHER OR NOT SUCH DISPUTE INVOLVES A THIRD PARTY) WITH REGARD TO YOUR RELATIONSHIP WITH US, INCLUDING WITHOUT LIMITATION DISPUTES RELATING TO THESE PUBLIC NETWORK TERMS, YOUR USE OF THE NETWORK OR SERVICES, AND/OR RIGHTS OF PRIVACY AND/OR PUBLICITY, YOU AND STACK OVERFLOW SHALL FIRST CONSULT WITH EACH OTHER TO ATTEMPT TO RESOLVE SUCH DISPUTE IN A MANNER SATISFACTORY TO BOTH PARTIES, AND THAT IF A RESOLUTION IS NOT REACHED WITHIN NINETY (90) DAYS, THEN THE DISPUTE SHALL BE REFERRED TO AND RESOLVED BY BINDING ARBITRATION UNDER JAMS, INC.’S RULES FOR ARBITRATION OF CONSUMER-RELATED DISPUTES AND YOU AND WE HEREBY EXPRESSLY WAIVE TRIAL BY JURY",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service forces users into binding arbitration in the case of disputes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service forces users into binding arbitration in the case of disputes",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6134": {
+      "id": "6134",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 23362,
+      "quoteStart": 23009,
+      "quoteText": "Neither you nor we will participate in a class action or class-wide arbitration for any claims covered by this agreement to arbitrate.\nYOU ARE GIVING UP YOUR RIGHT TO PARTICIPATE AS A CLASS REPRESENTATIVE OR CLASS MEMBER ON ANY CLASS CLAIM YOU MAY HAVE AGAINST US INCLUDING ANY RIGHT TO CLASS ARBITRATION OR ANY CONSOLIDATION OF INDIVIDUAL ARBITRATIONS.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "You waive your right to a class action.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your right to a class action.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6135": {
+      "id": "6135",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 28052,
+      "quoteStart": 27590,
+      "quoteText": "Stack Overflow reserves the right, in its sole discretion, to modify or replace these Public Network Terms, as our business evolves over time and to better provide Services and Products to the Stack Overflow community, or to change, suspend, or discontinue the public Network and/or any Services or Products at any time by posting a notice on the public Network or by sending you notice via e-mail or by another appropriate means of electronic communication.</p>",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "The service may change its terms at any time, but the user will receive notification of the changes.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may change its terms at any time, but the user will receive notification of the changes.",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6136": {
+      "id": "6136",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 30106,
+      "quoteStart": 30090,
+      "quoteText": "Last update: May",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "There is a date of the last update of the terms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "There is a date of the last update of the terms",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6166": {
+      "id": "6166",
+      "needModeration": false,
+      "quoteDoc": "Cookie Policy",
+      "quoteEnd": 6660,
+      "quoteStart": 6594,
+      "quoteText": "We use cookies to enable advertising with our third-party Partners",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service allows tracking via third-party cookies for purposes including targeted advertising.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Tracking via third-party cookies for other purposes without your consent.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6167": {
+      "id": "6167",
+      "needModeration": false,
+      "quoteDoc": "Cookie Policy",
+      "quoteEnd": 9472,
+      "quoteStart": 9342,
+      "quoteText": "Please note that Stack Overflow may not work properly and you may have diminished functionality if you opt-out of certain cookies.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "Blocking cookies may limit your ability to use the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Blocking first party cookies may limit your ability to use the service",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6168": {
+      "id": "6168",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 10670,
+      "quoteStart": 10355,
+      "quoteText": "any content or information you share publicly is governed by the terms described below in the section titled “Content Permissions, Restrictions, and Creative Commons Licensing,” and you should be aware that once you place content in the public sphere, you willingly give up some rights and control over such content",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service retains rights to your content even after you stop using your account",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service retains rights to your content even after you stop using your account",
+        "point": "bad",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6169": {
+      "id": "6169",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 14961,
+      "quoteStart": 14836,
+      "quoteText": "We share this information with certain third-parties (e.g., talent recruiters, payment processors, and advertising providers)",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "Many third parties are involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Many third parties are involved in operating the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6170": {
+      "id": "6170",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 23835,
+      "quoteStart": 23518,
+      "quoteText": "Stack Overflow will not disclose your personal information to legal authorities except where such disclosure is by lawful request, including to meet legitimate national security or law enforcement demands (including a subpoena, court order, or other lawful legal demand by a legal authority with lawful jurisdiction).",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service can share your personal information to third parties ",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your personal data is given to third parties",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6171": {
+      "id": "6171",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 20258,
+      "quoteStart": 19931,
+      "quoteText": "<p>Stack Overflow reserves the right to assign our rights and obligations under these Public Network Terms (in whole or in part) without your consent to a corporate affiliate, or in connection with a merger, acquisition, corporate restructure or reorganization, or due to the sale of all or substantially all of our assets.</p>",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7968": {
+      "id": "7968",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 10345,
+      "quoteStart": 10172,
+      "quoteText": "Although the Network provides for anonymous and pseudonymous participation, in some instances in order to use certain Products or Services, we require account registration.\n",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "The service allows you to use pseudonyms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service allows you to use pseudonyms",
+        "point": "good",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7969": {
+      "id": "7969",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 5994,
+      "quoteStart": 5959,
+      "quoteText": "HOW WE COLLECT INFORMATION FROM YOU",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "The service provides information about how they collect personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides information about how they collect personal data",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7970": {
+      "id": "7970",
+      "needModeration": false,
+      "quoteDoc": "Public Network Terms of Service",
+      "quoteEnd": 13679,
+      "quoteStart": 13196,
+      "quoteText": "You agree that any and all content, including without limitation any and all text, graphics, logos, tools, photographs, images, illustrations, software or source code, audio and video, animations, and product feedback (collectively, “Content”) that you provide to the public Network (collectively, “Subscriber Content”), is perpetually and irrevocably licensed to Stack Overflow on a worldwide, royalty-free, non-exclusive basis pursuant to Creative Commons licensing terms (CC BY-SA",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service can use your content for all their existing and future services",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service can use your content for all their existing and future services",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7971": {
+      "id": "7971",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 20471,
+      "quoteStart": 20262,
+      "quoteText": "These Public Network Terms will be governed by and construed in accordance with the applicable laws of the State of New York, without giving effect to the principles of that State regarding conflicts of laws.\n",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "The court of law governing the terms is in location X",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in location X",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7974": {
+      "id": "7974",
+      "needModeration": false,
+      "quoteDoc": "Stack Exchange, Inc. Cookie Policy",
+      "quoteEnd": 7530,
+      "quoteStart": 7016,
+      "quoteText": " If you decide that you do not want cookies to be set on your device by our third-party Partners, you can adjust the settings on your internet browser and choose from the available Cookies setting to best meet your preferences.\nWhile setting options may vary from browser to browser, you can generally choose to reject some or all cookies, or instead to receive a notification when a cookie is being placed on your device.\nFor more information, please refer to the user help information for your browser of choice.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service employs third-party cookies, but with opt-out instructions",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service employs third-party cookies, but with opt-out instructions",
+        "point": "bad",
+        "score": 5,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7976": {
+      "id": "7976",
+      "needModeration": false,
+      "quoteDoc": "Public Network Terms of Service",
+      "quoteEnd": 9090,
+      "quoteStart": 8701,
+      "quoteText": "To prevent bad actors from creating a negative community experience, we have outlined what we believe to be common sense rules for community participation and reserve the right to pause or terminate your account if you engage in disruptive, abusive, or nefarious behavior outside of Stack Overflow’s Acceptable Use Policy, which is hereby incorporated into these Public Network Terms.</li>",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "User accounts can be terminated after having been in breach of the terms of service repeatedly",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "User accounts can be terminated after having been in breach of the terms of service repeatedly",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7977": {
+      "id": "7977",
+      "needModeration": false,
+      "quoteDoc": "Public Network Terms of Service",
+      "quoteEnd": 7872,
+      "quoteStart": 7692,
+      "quoteText": "\nYou have the right to discontinue use of, or terminate, your account whenever you like, and subject to our Privacy Policy, control the use and sharing of your account information.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "You have the right to leave this service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You have the right to leave this service at any time",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8424": {
+      "id": "8424",
+      "needModeration": false,
+      "quoteDoc": "Public Network Terms of Service",
+      "quoteEnd": 4238,
+      "quoteStart": 4064,
+      "quoteText": "Age Eligibility <p>You must be at least 13 years old to access or use the Network or Services, including without limitation to complete a Stack Overflow account registration.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service is only available to users of a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "8425": {
+      "id": "8425",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 14093,
+      "quoteStart": 13858,
+      "quoteText": "When you use the Stack Overflow Network, and certain of our Products and Services, we collect location information about you including your IP address, your location, browser information, and how you came to the Stack Overflow Network.",
+      "services": [
+        "stackoverflow"
+      ],
+      "title": "This service may collect, use, and share location data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service may collect, use, and share location data",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 75,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "stackoverflow.com"
+  ]
+}

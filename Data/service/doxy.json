@@ -1,0 +1,73 @@
+{
+  "alexa": 295522,
+  "class": false,
+  "links": {},
+  "points": [
+    "12507",
+    "12508",
+    "12518"
+  ],
+  "pointsData": {
+    "12507": {
+      "id": "12507",
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 58,
+      "quoteStart": 32,
+      "quoteText": "<p>Last revised March 2020",
+      "services": [
+        "doxy"
+      ],
+      "title": "There is a date of the last update of the terms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "There is a date of the last update of the terms",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "12508": {
+      "id": "12508",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 19224,
+      "quoteStart": 19184,
+      "quoteText": "Personal Data for the following purposes",
+      "services": [
+        "doxy"
+      ],
+      "title": "The service provides information about how they intend to use your personal data",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides information about how they intend to use your personal data",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "12518": {
+      "id": "12518",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 2053,
+      "quoteStart": 1622,
+      "quoteText": "What this means in plain English: (however, the words our lawyers use are controlling and binding):</p>\n<p>These are the rules to use this site, our Terms of Service or Terms of Use (call it what you want).\nAlso, be sure to read our Privacy Policy to understand the details of how we use the data we may collect about you.\nIf you don’t like or agree to these Terms of Use and or our Privacy Policy, do not use our Site or Services.",
+      "services": [
+        "doxy"
+      ],
+      "title": "The terms for this service are easy to read",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The terms for this service are easy to read",
+        "point": "good",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "doxy.me"
+  ]
+}

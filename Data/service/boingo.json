@@ -1,0 +1,92 @@
+{
+  "alexa": 96972,
+  "class": false,
+  "links": {},
+  "points": [
+    "7110",
+    "7119",
+    "7639",
+    "7640"
+  ],
+  "pointsData": {
+    "7110": {
+      "id": "7110",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 17413,
+      "quoteStart": 17212,
+      "quoteText": "Our Services do not support Do Not Track requests at this time, which means that we collect information about your online activity both while you are using the Services and after you leave our Services",
+      "services": [
+        "boingo"
+      ],
+      "title": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+        "point": "bad",
+        "score": 60,
+        "tldr": "The privacy policy states that \"Our Services do not support Do Not Track requests at this time, which means that we collect information about your online activity both while you are using the Services and after you leave our Services.\""
+      }
+    },
+    "7119": {
+      "id": "7119",
+      "quoteDoc": "Terms of Service and Acceptable Use Policy",
+      "quoteEnd": 14060,
+      "quoteStart": 13732,
+      "quoteText": "Products and services purchased (whether or not following such recommendations and suggestions) are provided “AS IS” without any warranty of any kind from Boingo or others unless, with respect to others (only), otherwise made expressly and unambiguously in writing by a designated third party for a specific product or service.\n",
+      "services": [
+        "boingo"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "The terms of service state \"Products and services purchased (whether or not following such recommendations and suggestions) are provided “AS IS” without any warranty of any kind from Boingo or others unless, with respect to others (only), otherwise made expressly and unambiguously in writing by a designated third party for a specific product or service. \""
+      }
+    },
+    "7639": {
+      "id": "7639",
+      "quoteDoc": "Terms of Service and Acceptable Use Policy",
+      "quoteEnd": 15746,
+      "quoteStart": 15223,
+      "quoteText": "li>\n</ol>\n</li>\n</ol>\nYou will indemnify and hold Boingo, its parents, subsidiaries, affiliates, officers, and employees harmless (including, without limitation, from all damages, liabilities, settlements, costs and attorneys’ fees) from any claim or demand made by any third party due to or arising out of your access to the Services, use of the Services, your violation of this Agreement, or the infringement by you or any third party using your account of any intellectual property or other right of any person or entity",
+      "services": [
+        "boingo"
+      ],
+      "title": "You are solely responsible for claims made against the service and agree to indemnify and hold harmless the service.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You are solely responsible for claims made against the service and agree to indemnify and hold harmless the service.",
+        "point": "bad",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7640": {
+      "id": "7640",
+      "quoteDoc": "Terms of Service and Acceptable Use Policy",
+      "quoteEnd": 31057,
+      "quoteStart": 30893,
+      "quoteText": "\nFurther, the use of manual or automated software, devices, or other processes to “crawl,” “scrape,” or “spider” any portion of the Services is strictly prohibited.",
+      "services": [
+        "boingo"
+      ],
+      "title": "Spidering or crawling is not allowed",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Spidering or crawling is not allowed",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "boingo.com"
+  ]
+}

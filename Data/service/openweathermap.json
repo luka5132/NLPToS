@@ -1,0 +1,33 @@
+{
+  "class": false,
+  "links": {},
+  "points": [
+    "11810"
+  ],
+  "pointsData": {
+    "11810": {
+      "id": "11810",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 13285,
+      "quoteStart": 12985,
+      "quoteText": "You can ask us or third parties to stop sending you marketing messages at any time by logging into the website and checking or unchecking relevant boxes to adjust your marketing preferences or by following the opt-out links on any marketing message sent to you or by Contacting us at any time.",
+      "services": [
+        "openweathermap"
+      ],
+      "title": "You can opt out of promotional communications",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can opt out of promotional communications",
+        "point": "good",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "home.openweathermap.org",
+    "openweathermap.org"
+  ]
+}

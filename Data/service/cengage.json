@@ -1,0 +1,134 @@
+{
+  "alexa": 6141,
+  "class": false,
+  "links": {},
+  "points": [
+    "6778",
+    "6780",
+    "6782",
+    "6783",
+    "6786",
+    "6787"
+  ],
+  "pointsData": {
+    "6778": {
+      "id": "6778",
+      "needModeration": false,
+      "services": [
+        "cengage"
+      ],
+      "title": "This service uses third-party services for statistics",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service uses third-party cookies for statistics",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 10,
+        "tldr": "From Cengage Privacy Notice, they use Google Analytics and Omniture.\r\n\"Additional information from the third party advertising companies that we work with:\r\n\r\n    Omniture: If you would like more information on how to remove yourself from the tracking and reporting functions performed for this website by Omniture, please visit the Omniture Opt-Out Page at http://www.omniture.com/en/privacy/2o7 and follow the relevant instructions.\r\n    Google Analytics: For information on how Google Analytics uses data please visit “How Google uses data when you use our partners’ sites or apps”, located at www.google.com/policies/privacy/partners/.\r\n\""
+      }
+    },
+    "6780": {
+      "id": "6780",
+      "services": [
+        "cengage"
+      ],
+      "title": "The service uses tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "From Cengage Privacy Notice, 5. Cookies and Other Data Collection Technologies, they use Flash Cookies, Pixel Tags, and Web Beacons. They also \"collect many different types of information from server logs and other technologies.  For example, [they] may collect information the device you use to access our website, your operating system type, browser type, domain, and other system settings, as well as the language your system uses and the country and time zone where your device is located.\""
+      }
+    },
+    "6782": {
+      "id": "6782",
+      "needModeration": false,
+      "services": [
+        "cengage"
+      ],
+      "title": "Cengage collect personal information about you and your friends if you interact with them and others via social media platforms",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service gathers information about you through third parties",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "From Cengage Privacy Notice->7. Social Media Interactions and Interest-based Ads, \"Our websites may enable you to interact with us and others via social media platforms, such as Facebook, Twitter, Pinterest and Instagram.  While we respect each social media platform’s privacy policies, we may collect Personal Information about you and your friends if you choose to use these tools. For example, we may allow you to sign into Cengage websites and applications using Facebook Connect. If you choose to do this, we may collect information necessary to facilitate social interactions such as friend lists, birthday, check-ins, basic profile information and your profile picture but only if the privacy settings you and your friends set within Facebook allow it. We will use the information to facilitate an interactive social experience.\""
+      }
+    },
+    "6783": {
+      "id": "6783",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use ",
+      "quoteEnd": 4393,
+      "quoteStart": 4268,
+      "quoteText": "Cengage may, with or without notice, add features to the Services, or change or remove features of the Services, at any time.",
+      "services": [
+        "cengage"
+      ],
+      "title": "They may stop providing the service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "They may stop providing the service at any time",
+        "point": "bad",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6786": {
+      "id": "6786",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use ",
+      "quoteEnd": 9903,
+      "quoteStart": 9763,
+      "quoteText": "Cengage reserves the right (but has no obligation) to pre-screen, review, flag, filter, modify, refuse, or remove Content from the Services.",
+      "services": [
+        "cengage"
+      ],
+      "title": "Cengage reserves the right to pre-screen, review, flag, filter, modify, refuse, or remove Content from the Services. ",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete specific content without reason and may do it without prior notice",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "The Terms of Use state \"Cengage reserves the right (but has no obligation) to pre-screen, review, flag, filter, modify, refuse, or remove Content from the Services.\""
+      }
+    },
+    "6787": {
+      "id": "6787",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use ",
+      "quoteEnd": 31540,
+      "quoteStart": 30953,
+      "quoteText": "YOU AGREE TO INDEMNIFY, DEFEND AND HOLD HARMLESS CENGAGE, ITS AFFILIATES AND SUPPLIERS, AND THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES AND REPRESENTATIVES, FROM ANY AND ALL DEMANDS, CLAIMS,&nbsp;ACTIONS, DAMAGES, LOSSES, LIABILITIES, COSTS, AND EXPENSES, INCLUDING ATTORNEYS’ FEES AND COURT COSTS, DIRECTLY OR INDIRECTLY ARISING OUT OF OR IN CONNECTION WITH YOUR ACCESS OR USE OF THE SERVICES, CENGAGE MATERIALS, OR SERVICES ITEMS.\nANY CLAIMS RELATED TO YOUR CONTENT.\nOR YOUR VIOLATION OF ANY OF THESE TERMS.\nThis paragraph shall survive any expiration or termination of these Terms",
+      "services": [
+        "cengage"
+      ],
+      "title": "You agree to defend, indemnify, and hold Cengage harmless in case of a claim related to your use of the service (and survives termination)",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "defend, indemnify, hold harmless; survives termination",
+        "point": "bad",
+        "score": 80,
+        "tldr": "From Terms of Use, \"YOU AGREE TO INDEMNIFY, DEFEND AND HOLD HARMLESS CENGAGE, ITS AFFILIATES AND SUPPLIERS, AND THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES AND REPRESENTATIVES, FROM ANY AND ALL DEMANDS, CLAIMS, ACTIONS, DAMAGES, LOSSES, LIABILITIES, COSTS AND EXPENSES, INCLUDING ATTORNEYS’ FEES AND COURT COSTS, DIRECTLY OR INDIRECTLY ARISING OUT OF OR IN CONNECTION WITH YOUR ACCESS OR USE OF THE SERVICES, CENGAGE MATERIALS, OR SERVICES ITEMS; ANY CLAIMS RELATED TO YOUR CONTENT; OR YOUR VIOLATION OF ANY OF THESE TERMS. This paragraph shall survive any expiration or termination of these Terms.\""
+      }
+    }
+  },
+  "urls": [
+    "cengage.com",
+    "nelsonbrain.com",
+    "webassign.com",
+    "webassign.net",
+    "pathbrite.com",
+    "aplia.com",
+    "cengagebrain.com"
+  ]
+}

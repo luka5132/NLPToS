@@ -1,0 +1,182 @@
+{
+  "alexa": 1000000,
+  "class": false,
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "http://www.wikia.com/Privacy_Policy"
+    }
+  },
+  "points": [
+    "5593",
+    "5594",
+    "5595",
+    "5596",
+    "5597",
+    "5598",
+    "5599",
+    "5947"
+  ],
+  "pointsData": {
+    "5593": {
+      "id": "5593",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 5972,
+      "quoteStart": 5484,
+      "quoteText": "You must keep your account details safe\n<p>If you choose to register, and you are provided with or create a user identification code, password or other piece of information as part of our security procedures, you must treat such information as confidential.\nYou must not disclose it to any third party, and you agree to maintain the security of your password and identification and to be fully responsible for all use of your account and for any actions that take place using your account",
+      "services": [
+        "wikia"
+      ],
+      "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5594": {
+      "id": "5594",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 6254,
+      "quoteStart": 5981,
+      "quoteText": "The Company may terminate your account, delete your profile and any content or information that you have posted on the Services and/or prohibit you from using or accessing the Services for any reason, or no reason, at any time in its sole discretion, with or without notice",
+      "services": [
+        "wikia"
+      ],
+      "title": "The service can delete your account without prior notice and without a reason",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete your account without prior notice and without a reason",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5595": {
+      "id": "5595",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 9011,
+      "quoteStart": 8753,
+      "quoteText": "We have no liability to you or any other person for loss, damage, or destruction to your content.\nYou are solely responsible at your sole cost and expense for creating backup copies and replacing any content you post or store on the Services or provide to us",
+      "services": [
+        "wikia"
+      ],
+      "title": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5596": {
+      "id": "5596",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 11018,
+      "quoteStart": 10904,
+      "quoteText": "Company provides you with a license to use the Company Original Content for your personal, noncommercial use only.",
+      "services": [
+        "wikia"
+      ],
+      "title": "This service is only available for use individually and non-commercially.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available for use individually and non-commercially.",
+        "point": "neutral",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5597": {
+      "id": "5597",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 11094,
+      "quoteStart": 11019,
+      "quoteText": "Company may terminate this license at any time for any reason or no reason.",
+      "services": [
+        "wikia"
+      ],
+      "title": "They may stop providing the service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "They may stop providing the service at any time",
+        "point": "bad",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5598": {
+      "id": "5598",
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 14614,
+      "quoteStart": 14526,
+      "quoteText": "Post or transmit any content that is obscene, pornographic, abusive, offensive, profane,",
+      "services": [
+        "wikia"
+      ],
+      "title": "Prohibits the posting of pornographic content",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Prohibits the posting of pornographic content",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5599": {
+      "id": "5599",
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 14946,
+      "quoteStart": 14858,
+      "quoteText": "Post any illegal or unauthorized content or use for any illegal or unauthorized purposes",
+      "services": [
+        "wikia"
+      ],
+      "title": "Users agree not to submit illegal content",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree not to submit illegal content",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5947": {
+      "id": "5947",
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 8270,
+      "quoteStart": 8104,
+      "quoteText": "You understand and agree that others may, but are not obligated to, edit, delete or remove (without notice) any content from the Services, for any reason or no reason",
+      "services": [
+        "wikia"
+      ],
+      "title": "The service can delete specific content without prior notice and without a reason",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete specific content without reason and may do it without prior notice",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "fandom.com"
+  ]
+}

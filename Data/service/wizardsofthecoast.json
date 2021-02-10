@@ -1,0 +1,123 @@
+{
+  "alexa": 2059,
+  "class": false,
+  "links": {},
+  "points": [
+    "7371",
+    "7373",
+    "7374",
+    "7375",
+    "7376"
+  ],
+  "pointsData": {
+    "7371": {
+      "id": "7371",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 47765,
+      "quoteStart": 47368,
+      "quoteText": "We reserve the right to change this Privacy Policy at any time.\nAny changes will be effective immediately upon posting of the revised Privacy Policy.\nPlease visit this page from time to time to check for changes.\nYour continued use of our Service indicates your consent to the Privacy Policy then posted.\nIf the changes are material, we may provide you additional notice to your email address.</p>",
+      "services": [
+        "wizardsofthecoast"
+      ],
+      "title": "Users should revisit the terms periodically, although in case of material changes, the service will notify",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users should revisit the terms periodically, although in case of material changes, the service will notify",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7373": {
+      "id": "7373",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 40906,
+      "quoteStart": 40543,
+      "quoteText": "Do Not Track.&nbsp;</b>Your browser settings may allow you to automatically transmit a “Do Not Track” signal to online services you visit.\nNote, however, there is no industry consensus as to what site and app operators should do with regard to these signals.\nAccordingly, we do not monitor or take action with respect to “Do Not Track” signals or other mechanisms",
+      "services": [
+        "wizardsofthecoast"
+      ],
+      "title": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7374": {
+      "id": "7374",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 38218,
+      "quoteStart": 38019,
+      "quoteText": "<p>If you wish to review, correct, or delete content or information you have publicly posted on our Service you may do so by visiting the individual post and selecting the “Edit” or “Delete” options.",
+      "services": [
+        "wizardsofthecoast"
+      ],
+      "title": "You can delete your content from this service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can delete your content from this service",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7375": {
+      "id": "7375",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 44294,
+      "quoteStart": 44116,
+      "quoteText": "<p>If you do not want Wizards to send you promotional emails about products, services or events, you may opt-out of receiving such promotional emails at the time of registration.",
+      "services": [
+        "wizardsofthecoast"
+      ],
+      "title": "You can opt out of promotional communications",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You can opt out of promotional communications",
+        "point": "good",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "7376": {
+      "id": "7376",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 47124,
+      "quoteStart": 46352,
+      "quoteText": "INTERNATIONAL TRANSFER OF INFORMATION</b>\n<p>Wizards is based in the U.S.\nand the information it collects is governed by U.S.\nlaw.\nIf you are accessing the Service from outside the U.S., please be aware that information collected through the Service may be transferred across borders, and from your country or jurisdiction to other countries or jurisdictions around the world, including the U.S.\nData protection laws in the U.S.\nand other jurisdictions may be different from those of your country of residence.\nBy using the Service, you are expressly consenting to the transfer to and from, processing, usage, sharing, and storage of your information, including personal data, in the U.S.\nas well as other jurisdictions where Wizards conducts business or provides services",
+      "services": [
+        "wizardsofthecoast"
+      ],
+      "title": "Your data may be processed and stored anywhere in the world",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your data may be processed and stored anywhere in the world",
+        "point": "bad",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "wizards.com",
+    "company.wizards.com",
+    "support.wizards.com",
+    "magic.wizards.com",
+    "dnd.wizards.com",
+    "wpn.wizards.com",
+    "avalonhill.wizards.com"
+  ]
+}

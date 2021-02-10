@@ -1,0 +1,129 @@
+{
+  "alexa": 196248,
+  "class": false,
+  "links": {},
+  "points": [
+    "6210",
+    "6379",
+    "6380",
+    "6381",
+    "6382",
+    "6383"
+  ],
+  "pointsData": {
+    "6210": {
+      "id": "6210",
+      "needModeration": false,
+      "services": [
+        "privacytoolsio"
+      ],
+      "title": "Third parties may be involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Third parties may be involved in operating the service",
+        "point": "bad",
+        "score": 15,
+        "tldr": "According to a reddit comment by one of the privacytools.io admins, Mastodon hosted on social.privacytools.io is being hosted by a third-party provider, https://masto.host, "
+      }
+    },
+    "6379": {
+      "id": "6379",
+      "quoteDoc": "forum.privacytools.io Terms of Service",
+      "quoteEnd": 9359,
+      "quoteStart": 9262,
+      "quoteText": "The company reserves the right to change, redact, and delete content on the forum for any reason.",
+      "services": [
+        "privacytoolsio"
+      ],
+      "title": "The service can change, redact, and delete specific content without prior notice and without a reason",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete specific content without reason and may do it without prior notice",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "On the privacytoolsIO forums, the service reserves the right to change, redact, and delete content on the forum for any reason. "
+      }
+    },
+    "6380": {
+      "id": "6380",
+      "quoteDoc": "forum.privacytools.io Terms of Service",
+      "quoteEnd": 6419,
+      "quoteStart": 6248,
+      "quoteText": "You may not automate access to the forum, or monitor the forum, such as with a web crawler, browser plug-in or add-on, or other computer program that is not a web browser.",
+      "services": [
+        "privacytoolsio"
+      ],
+      "title": "Spidering or crawling is not allowed",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Spidering or crawling is not allowed",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6381": {
+      "id": "6381",
+      "quoteDoc": "forum.privacytools.io Terms of Service",
+      "quoteEnd": 13872,
+      "quoteStart": 13695,
+      "quoteText": "You accept all risk of using the forum and content on the forum.\nAs far as the law allows, the company and its suppliers provide the forum as is, without any warranty whatsoever",
+      "services": [
+        "privacytoolsio"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6382": {
+      "id": "6382",
+      "quoteDoc": "forum.privacytools.io Terms of Service",
+      "quoteEnd": 15408,
+      "quoteStart": 15082,
+      "quoteText": "You agree that the company will be free to act on feedback and suggestions you provide, and that the company won’t have to notify you that your feedback was used, get your permission to use it, or pay you.\nYou agree not to submit feedback or suggestions that you believe might be confidential or proprietary, to you or others.",
+      "services": [
+        "privacytoolsio"
+      ],
+      "title": "If you offer suggestions to the service, they become the owner of the ideas that you give them",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "If you offer suggestions to the service, they become the owner of the ideas that you give them",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "6383": {
+      "id": "6383",
+      "quoteDoc": "forum.privacytools.io Terms of Service",
+      "quoteEnd": 16818,
+      "quoteStart": 16629,
+      "quoteText": "Other than to seek an injunction or for claims under the Computer Fraud and Abuse Act, you and the company will resolve any Dispute by binding American Arbitration Association arbitration.\n",
+      "services": [
+        "privacytoolsio"
+      ],
+      "title": "This service forces users into binding arbitration in the case of disputes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service forces users into binding arbitration in the case of disputes",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "privacytools.io"
+  ]
+}

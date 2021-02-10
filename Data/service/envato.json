@@ -1,0 +1,128 @@
+{
+  "alexa": 1345,
+  "class": false,
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "https://envato.com/privacy/"
+    }
+  },
+  "points": [
+    "1350",
+    "1570",
+    "1633",
+    "677"
+  ],
+  "pointsData": {
+    "677": {
+      "discussion": "https://groups.google.com/d/topic/tosdr/m4IRrxn4SOo/discussion",
+      "id": "677",
+      "meta": {
+        "author": "Hugo for “Terms of Service; Didn't Read”",
+        "contributors": [
+          "Hugo Roy <hugo@tosdr.org>"
+        ],
+        "license-for-this-file": "This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, .USA",
+        "spec-version": "1.1"
+      },
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 17475,
+      "quoteStart": 17188,
+      "quoteText": "We will need to change this policy from time to time in order to make sure it stays up to date with the latest legal requirements and any changes to our privacy management practices.</li>\n<li>When we do change the policy, we’ll make sure to notify you about such changes, where required.",
+      "services": [
+        "envato"
+      ],
+      "slug": "any-time-with-notice-envato",
+      "title": "Terms may be changed at any time, but you will be notified.",
+      "topics": [
+        "changes-notice"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may change its terms at any time, but the user will receive notification of the changes.",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "They can change the terms of service any time they see fit, but they will notify the user. Your use of the service supposedly constitutes acceptance of the changes in the terms."
+      }
+    },
+    "1350": {
+      "discussion": "https://groups.google.com/d/topic/tosdr/ugUk3u-8siQ/discussion",
+      "id": "1350",
+      "needModeration": false,
+      "quoteDoc": "Envato Market Terms",
+      "quoteEnd": 44439,
+      "quoteStart": 44258,
+      "quoteText": "We do not refund any monies originally placed into your Envato Market account to buy Envato Credits (but you may have rights under an applicable consumer law, which we don’t exclude",
+      "services": [
+        "envato"
+      ],
+      "set": "set+service+and+topic",
+      "slug": "ugUk3u-8siQ",
+      "title": "Credits are non-refundable",
+      "topics": [
+        "refunds"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "The service has a no refund policy",
+        "point": "neutral",
+        "score": 50,
+        "tldr": ""
+      }
+    },
+    "1570": {
+      "discussion": "https://groups.google.com/d/topic/tosdr/GJNxX66iD3k/discussion",
+      "id": "1570",
+      "needModeration": false,
+      "quoteDoc": "Envato Market Terms",
+      "quoteEnd": 68504,
+      "quoteStart": 68367,
+      "quoteText": "We may change these terms at any time and, if we make changes, we will take reasonable steps to let our community know about the changes.",
+      "services": [
+        "envato"
+      ],
+      "set": "set+service+and+topic",
+      "slug": "GJNxX66iD3k",
+      "title": "The service may change its terms at any time, but the user will receive notification of the changes.",
+      "topics": [
+        "changes"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may change its terms at any time, but the user will receive notification of the changes.",
+        "point": "neutral",
+        "score": 0,
+        "tldr": ""
+      }
+    },
+    "1633": {
+      "discussion": "https://groups.google.com/d/topic/tosdr/kM2fU-HTOec/discussion",
+      "id": "1633",
+      "needModeration": false,
+      "quoteDoc": "Envato Market Terms",
+      "quoteEnd": 59923,
+      "quoteStart": 59842,
+      "quoteText": "We can suspend or terminate your Envato Market account at any time for any reason",
+      "services": [
+        "envato"
+      ],
+      "set": "set+service+and+topic",
+      "slug": "kM2fU-HTOec",
+      "title": "The service can delete your account without prior notice and without a reason",
+      "topics": [
+        "suspension"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete your account without prior notice and without a reason",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Your account can be terminated for any reason without notice."
+      }
+    }
+  },
+  "urls": [
+    "envato.com"
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "alexa": 1775,
+  "class": "E",
+  "links": {
+    "Privacy Policy": {
+      "name": "Privacy Policy",
+      "url": "https://www.blizzard.com/en-us/legal/a4380ee5-5c8d-4e3b-83b7-ea26d01a9918/blizzard-entertainment-online-privacy-policy"
+    },
+    "Terms of Use": {
+      "name": "Terms of Use",
+      "url": "http://us.blizzard.com/en-us/company/legal/wow_tou.html"
+    }
+  },
+  "points": [
+    "10511",
+    "10515",
+    "10522",
+    "10525",
+    "10530",
+    "10532",
+    "10533",
+    "10534",
+    "10535",
+    "10541",
+    "10542",
+    "10543",
+    "10544",
+    "10545",
+    "10546",
+    "10547",
+    "10548",
+    "10550",
+    "10551",
+    "10552",
+    "10553",
+    "10554",
+    "10555",
+    "10556",
+    "10557",
+    "10558",
+    "10559",
+    "10560",
+    "10561",
+    "10562",
+    "10563",
+    "10564",
+    "10565",
+    "10566",
+    "10567",
+    "10568",
+    "10569",
+    "10570",
+    "10571",
+    "10572",
+    "10573",
+    "10574",
+    "10575",
+    "10576"
+  ],
+  "pointsData": {
+    "10511": {
+      "id": "10511",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 8818,
+      "quoteStart": 8630,
+      "quoteText": "In addition, your web browser or client software may transmit certain geographic information or information regarding your computer (capabilities, game data processing, etc.) to Blizzard.\n",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "They may collect your browsing and device fingerprinting."
+      }
+    },
+    "10515": {
+      "id": "10515",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 8909,
+      "quoteStart": 8818,
+      "quoteText": "Blizzard may use this information to generate aggregate statistics about our user community",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Your personal data is aggregated into statistics",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Your personal data is aggregated into statistics",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10522": {
+      "id": "10522",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 22326,
+      "quoteStart": 21860,
+      "quoteText": "p>\n<p>Our websites may include certain social media features such as the Facebook \"Like\" button, and widgets such as the Share this button or interactive mini-programs that run on our websites.\nThese features may collect your Internet Protocol (“IP”) address, which page you are visiting on our websites, and may set a cookie to enable the feature to function properly.\nSocial media features and widgets are hosted by a third party or hosted directly on our websites",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service uses third party tracking pixels to track social media conversion",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service uses social media cookies/pixels",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10525": {
+      "id": "10525",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 25180,
+      "quoteStart": 24994,
+      "quoteText": "\nSimilarly, in the event of a merger, acquisition, reorganization, bankruptcy, or other similar event, your personal information may be transferred to Blizzard's successor or assign.</p>",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10530": {
+      "id": "10530",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 38516,
+      "quoteStart": 38414,
+      "quoteText": "Once a child states that his/her age is under 13, they will be unable to register an account with us.\n",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service is only available to users over a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10532": {
+      "id": "10532",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 41857,
+      "quoteStart": 41846,
+      "quoteText": "listed here",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service refers users to external documents for more information",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service refers users to external documents for more information",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 25,
+        "tldr": "Full quote: \"Blizzard and our partners, such as marketing partners and analytics providers (listed here ), may use tracking technologies such as cookies, beacons, tags and scripts."
+      }
+    },
+    "10533": {
+      "id": "10533",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 42590,
+      "quoteStart": 42459,
+      "quoteText": "If you reject cookies, you may still use our websites, but your ability to use features or areas of our websites may be limited.</p",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Blocking first party cookies may limit your ability to use the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Blocking first party cookies may limit your ability to use the service",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10534": {
+      "id": "10534",
+      "needModeration": false,
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 43516,
+      "quoteStart": 43391,
+      "quoteText": "Our ad network partners may use tracking technologies to collect information about your activities on this and other websites",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service tracks you on other websites",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service tracks you on other websites",
+        "point": "bad",
+        "score": 60,
+        "tldr": "While it is not Blizzard directly tracking you, its affiliates, subsidiaries do so on their behalf, which in practice -I'd argue- is the same."
+      }
+    },
+    "10535": {
+      "id": "10535",
+      "quoteDoc": "Privacy Policy",
+      "quoteEnd": 43579,
+      "quoteStart": 43517,
+      "quoteText": "to provide you targeted advertising based upon your interests.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service uses your personal data to employ targeted third-party advertising",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service uses your personal data to employ targeted third-party advertising",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 40,
+        "tldr": "Full quote: \"We partner with third party ad networks to either display advertising on our websites or to manage our advertising on other sites. Our ad network partners may use tracking technologies to collect information about your activities on this and other websites to provide you targeted advertising based upon your interests.\""
+      }
+    },
+    "10541": {
+      "id": "10541",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 6294,
+      "quoteStart": 6179,
+      "quoteText": "and you cannot share the Account or the Login Information with anyone, unless the terms of this Agreement allow it.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "You cannot distribute or disclose your account to third parties",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You cannot distribute or disclose your account to third parties",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10542": {
+      "id": "10542",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 7058,
+      "quoteStart": 6863,
+      "quoteText": "You must maintain the confidentiality of the Login Information, as you are responsible for all uses of the Login Information and the Account, including purchases, whether or not authorized by you",
+      "services": [
+        "blizzard"
+      ],
+      "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You are responsible for maintaining the security of your account and for the activities on your account",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10543": {
+      "id": "10543",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 8011,
+      "quoteStart": 7819,
+      "quoteText": "Your use of the Platform to interact with Blizzard and other players is governed by Blizzard’s Code of Conduct (the “Code of Conduct”) and applicable in-game policies (the “In-game Policies”).",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Other applicable rules, terms, conditions or guidelines",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Other applicable rules, terms, conditions or guidelines",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10544": {
+      "id": "10544",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 8703,
+      "quoteStart": 8366,
+      "quoteText": "If you choose a recurring subscription for a Game, you acknowledge that payments will be processed automatically (e.g., debited from your Blizzard Balance or charged to your credit card) until you cancel the subscription or the Account.\nBlizzard may revise the pricing for the goods and services offered through the Platform at any time.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "You authorise the service to charge a credit card supplied on re-occurring basis",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You authorise the service to charge a credit card supplied on re-occurring basis",
+        "point": "neutral",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10545": {
+      "id": "10545",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 9134,
+      "quoteStart": 8905,
+      "quoteText": "Blizzard shall have the right to monitor and/or record your communications when you use the Platform, and you acknowledge and agree that when you use the Platform, you have no expectation that your communications will be private.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service can read your private messages",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can read your private messages",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10546": {
+      "id": "10546",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 10275,
+      "quoteStart": 10113,
+      "quoteText": "You may use the Platform for your personal and non-commercial entertainment purposes only, unless specifically allowed under the terms of this Agreement.</p>\n</li",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service is only available for use individually and non-commercially.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available for use individually and non-commercially.",
+        "point": "neutral",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10547": {
+      "id": "10547",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 5347,
+      "quoteStart": 5248,
+      "quoteText": "ii) you are not an individual specifically prohibited by Blizzard from using the Platform.</p>\n</li",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Users who have been permanently banned from this service are not allowed to re-register under a new account",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users who have been permanently banned from this service are not allowed to re-register under a new account",
+        "point": "neutral",
+        "score": 20,
+        "tldr": "Full quote: \"You may establish an Account only if: (i) you are a “natural person” and an adult in your country of residence (Corporations, Limited Liability Companies, partnerships and other legal or business entities may not establish an Account). and (ii) you are not an individual specifically prohibited by Blizzard from using the Platform.\""
+      }
+    },
+    "10548": {
+      "id": "10548",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 13323,
+      "quoteStart": 13118,
+      "quoteText": "Blizzard may suspend or revoke your license to use the Platform, or parts, components and/or single features thereof, if you violate, or assist others in violating, the license limitations set forth below.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service can suspend your account for several reasons",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can suspend your account for several reasons",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10550": {
+      "id": "10550",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 18595,
+      "quoteStart": 18389,
+      "quoteText": "intended to unreasonably undermine or disrupt the Game experiences of others, deliberate inactivity or disconnecting, and/or any other activity which violates Blizzard’s Code of Conduct or In-Game Policies.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Users shall not interfere with another person's enjoyment of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users shall not interfere with another person's enjoyment of the service",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Full quote: \"Harassment, “griefing,” abusive behavior or chat, conduct intended to unreasonably undermine or disrupt the Game experiences of others, deliberate inactivity or disconnecting, and/or any other activity which violates Blizzard’s Code of Conduct or In-Game Policies.\""
+      }
+    },
+    "10551": {
+      "id": "10551",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 18715,
+      "quoteStart": 18619,
+      "quoteText": "li>\n<p>Violation of Laws: use the Platform to violate any applicable law or regulation.</p>\n</li",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Users agree not to use the service for illegal purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree not to use the service for illegal purposes",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10552": {
+      "id": "10552",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 22307,
+      "quoteStart": 22189,
+      "quoteText": "IN ORDER TO HAVE A BLIZZARD BALANCE OF MORE THAN $110.00 USD, YOU MUST ATTACH A BLIZZARD AUTHENTICATOR TO YOUR ACCOUNT",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service provides two factor authentification for your account",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provides two factor authentification for your account",
+        "point": "good",
+        "score": 25,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10553": {
+      "id": "10553",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 25310,
+      "quoteStart": 25272,
+      "quoteText": "You hereby grant Blizzard a perpetual,",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service keeps a license on user-generated content even after users close their accounts.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service keeps a license on user-generated content even after users close their accounts.",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Full quote: \"You hereby grant Blizzard a perpetual, irrevocable, worldwide, fully paid up, non-exclusive, sub-licensable, right and license to exploit the User Content and all elements thereof, in any and all media, formats and forms, known now or hereafter devised.\""
+      }
+    },
+    "10554": {
+      "id": "10554",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 25364,
+      "quoteStart": 25311,
+      "quoteText": "irrevocable, worldwide, fully paid up, non-exclusive,",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The copyright license maintained by the service over user data and/or content is broader than necessary.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The copyright license maintained by the service over user data and/or content is broader than necessary.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Full quote: \"You hereby grant Blizzard a perpetual, irrevocable, worldwide, fully paid up, non-exclusive, sub-licensable, right and license to exploit the User Content and all elements thereof, in any and all media, formats and forms, known now or hereafter devised.\""
+      }
+    },
+    "10555": {
+      "id": "10555",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 25443,
+      "quoteStart": 25365,
+      "quoteText": "sub-licensable, right and license to exploit the User Content and all elements",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service can license user content to third parties",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service can license user content to third parties",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Full quote: \"You hereby grant Blizzard a perpetual, irrevocable, worldwide, fully paid up, non-exclusive, sub-licensable, right and license to exploit the User Content and all elements thereof, in any and all media, formats and forms, known now or hereafter devised.\""
+      }
+    },
+    "10556": {
+      "id": "10556",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 25525,
+      "quoteStart": 25444,
+      "quoteText": "thereof, in any and all media, formats and forms, known now or hereafter devised.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service employs a broad copyright license over user content including the right to distribute through any media",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can distribute your content through any media known now or in the future ",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Full quote: \"You hereby grant Blizzard a perpetual, irrevocable, worldwide, fully paid up, non-exclusive, sub-licensable, right and license to exploit the User Content and all elements thereof, in any and all media, formats and forms, known now or hereafter devised.\""
+      }
+    },
+    "10557": {
+      "id": "10557",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 26370,
+      "quoteStart": 26133,
+      "quoteText": "In the event you upload or otherwise transmit to Blizzard any concepts, ideas, or feedback relating to the Platform, you shall not be entitled to any compensation for any such submission, unless expressly agreed between you and Blizzard,",
+      "services": [
+        "blizzard"
+      ],
+      "title": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "If you offer suggestions to the service, they may use that without your approval or compensation, but they do not become the owner",
+        "point": "good",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10558": {
+      "id": "10558",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 26454,
+      "quoteStart": 26371,
+      "quoteText": "and Blizzard may freely use any such submission in any manner it deems appropriate.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service can use your content for all their existing and future services",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service can use your content for all their existing and future services",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10559": {
+      "id": "10559",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 26766,
+      "quoteStart": 26560,
+      "quoteText": "Except to the extent that any such waiver is prohibited by law, you hereby waive the benefit of any provision of law known as \"moral rights\" or \"droit moral\" or any similar law in any country of the world.\n",
+      "services": [
+        "blizzard"
+      ],
+      "title": "You waive your moral rights",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your moral rights",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10560": {
+      "id": "10560",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 27043,
+      "quoteStart": 26942,
+      "quoteText": "You further represent and warrant that you will not use or contribute User Content that is unlawful, ",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Users agree not to submit illegal content",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree not to submit illegal content",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10561": {
+      "id": "10561",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 27073,
+      "quoteStart": 27065,
+      "quoteText": "obscene,",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Prohibits the posting of pornographic content",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Prohibits the posting of pornographic content",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Full quote: \"You further represent and warrant that you will not use or contribute User Content that is unlawful, tortious, defamatory, obscene, invasive of the privacy of another person, threatening, harassing, abusive, hateful, racist or otherwise objectionable or inappropriate.\""
+      }
+    },
+    "10562": {
+      "id": "10562",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 27210,
+      "quoteStart": 27116,
+      "quoteText": " threatening, harassing, abusive, hateful, racist or otherwise objectionable or inappropriate.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Users agree not to submit libelous, harassing or threatening content",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree not to submit libelous, harassing or threatening content",
+        "point": "neutral",
+        "score": 20,
+        "tldr": "Full quote: \"You further represent and warrant that you will not use or contribute User Content that is unlawful, tortious, defamatory, obscene, invasive of the privacy of another person, threatening, harassing, abusive, hateful, racist or otherwise objectionable or inappropriate.\""
+      }
+    },
+    "10563": {
+      "id": "10563",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 27339,
+      "quoteStart": 27211,
+      "quoteText": "Blizzard may remove any User Content and any related content or elements from the Platform at its sole discretion.</p>\n</li>\n<li",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service can delete specific content without prior notice and without a reason",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service can delete specific content without reason and may do it without prior notice",
+        "point": "blocker",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10564": {
+      "id": "10564",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 41694,
+      "quoteStart": 41536,
+      "quoteText": "THE PLATFORM, ACCOUNTS, AND THE GAME(S) ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE,” BASIS FOR USE, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED,",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10565": {
+      "id": "10565",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 41794,
+      "quoteStart": 41695,
+      "quoteText": "INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF CONDITION, UNINTERRUPTED OR ERROR-FREE USE, ",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+        "point": "bad",
+        "score": 30,
+        "tldr": "Full quote: \"THE PLATFORM, ACCOUNTS, AND THE GAME(S) ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE,” BASIS FOR USE, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF CONDITION, UNINTERRUPTED OR ERROR-FREE USE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, TITLE, AND THOSE ARISING FROM COURSE OF DEALING OR USAGE OF TRADE.\""
+      }
+    },
+    "10566": {
+      "id": "10566",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 43862,
+      "quoteStart": 43645,
+      "quoteText": "The entitlement to a replacement or a refund for a major failure is not subject to Blizzard’s option.\nTo submit a warranty claim to Blizzard, please call 1800 041 378 or send to PO Box 544, Pyrmont NSW 2009 Australia.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Users are entitled to a refund if certain thresholds or standards are not met by the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users are entitled to a refund if certain thresholds or standards are not met by the service",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10567": {
+      "id": "10567",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 44186,
+      "quoteStart": 43995,
+      "quoteText": "Blizzard, its parent, subsidiaries, Licensors and affiliates shall not be liable for any loss or damage arising out of your use of, or inability to access or use, the Platform or Account(s).\n",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10568": {
+      "id": "10568",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 44338,
+      "quoteStart": 44186,
+      "quoteText": "Blizzard’s liability shall never exceed the total fees paid by you to Blizzard during the six (6) months prior to your making a claim against Blizzard.\n",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Any liability on behalf of the service is only limited to the fees you paid as a user",
+        "point": "bad",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10569": {
+      "id": "10569",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 45029,
+      "quoteStart": 44577,
+      "quoteText": "You hereby agree to defend and indemnify Blizzard, its parent, subsidiaries, Licensors and affiliates against and from any third party claims, liabilities, losses, injuries, damages, costs or expenses incurred by Blizzard arising out of or from your use of the Platform or Account(s), or any specific services or features associated therewith, including but not limited to User Content, Custom Games, Game Editors, Blizzard Balance, and this Agreement.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10570": {
+      "id": "10570",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 46109,
+      "quoteStart": 45952,
+      "quoteText": "New Agreements will not be applied retroactively.\nYou will be given an opportunity to review the New Agreement before choosing to accept or reject its terms.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Conditions may change, but your continued acceptance is not inferred from an earlier acceptance",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Conditions may change, but your continued acceptance is not inferred from an earlier acceptance",
+        "point": "neutral",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10571": {
+      "id": "10571",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 49490,
+      "quoteStart": 49293,
+      "quoteText": "This Agreement shall be governed by, and will be construed under, the laws of the United States of America and the law of the State of Delaware, without regard to choice of law principles.</p>\n</li",
+      "services": [
+        "blizzard"
+      ],
+      "title": "The court of law governing the terms is in location X",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The court of law governing the terms is in location X",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10572": {
+      "id": "10572",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 52177,
+      "quoteStart": 51999,
+      "quoteText": "Blizzard’s failure to enforce a provision of this Agreement shall not be construed as a (1) waiver of such provision, or (2) diminishment of any right to enforce such provisions.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Failure to enforce any provision of the Terms of Service does not constitute a waiver of such provision",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10573": {
+      "id": "10573",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 53821,
+      "quoteStart": 53630,
+      "quoteText": "li>\n<p>If any part of this Agreement is determined to be invalid or unenforceable, then that portion shall be severed, and the remainder of this Agreement shall be given full force and effect",
+      "services": [
+        "blizzard"
+      ],
+      "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10574": {
+      "id": "10574",
+      "quoteDoc": "End User License Agreement",
+      "quoteEnd": 54250,
+      "quoteStart": 54134,
+      "quoteText": "The provisions of Sections 2, 5, 6, 7, 8, 11, 12, and 13 shall survive termination of this Agreement for any reason.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "defend, indemnify, hold harmless; survives termination",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "defend, indemnify, hold harmless; survives termination",
+        "point": "bad",
+        "score": 80,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10575": {
+      "id": "10575",
+      "quoteDoc": "Blizzard Entertainment Dispute Resolution Policy",
+      "quoteEnd": 3982,
+      "quoteStart": 3775,
+      "quoteText": "<p>If a Dispute cannot be resolved through negotiations, either you or Blizzard may elect to have the Dispute (except as set forth in Section 5 below) finally and exclusively resolved by binding arbitration.",
+      "services": [
+        "blizzard"
+      ],
+      "title": "This service forces users into binding arbitration in the case of disputes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service forces users into binding arbitration in the case of disputes",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "10576": {
+      "id": "10576",
+      "quoteDoc": "Blizzard Entertainment Dispute Resolution Policy",
+      "quoteEnd": 8186,
+      "quoteStart": 7157,
+      "quoteText": "You and Blizzard agree that any arbitration or court proceeding shall be limited to the Dispute between Blizzard and you individually.\nYOU ACKNOWLEDGE AND AGREE THAT:</p>\n<ol>\n<li>A CLAIM BY, OR ON BEHALF OF, OTHER PERSONS, WILL NOT BE CONSIDERED IN, JOINED WITH, OR CONSOLIDATED WITH, THE ARBITRATION PROCEEDINGS OR ANY COURT PROCEEDINGS BETWEEN YOU AND BLIZZARD;</li>\n<li>THERE IS NO RIGHT OR AUTHORITY FOR ANY DISPUTE TO BE ARBITRATED, ADJUDICATED, OR RESOLVED THROUGH COURT PROCEEDINGS ON A CLASS-ACTION BASIS OR TO UTILIZE CLASS ACTION PROCEDURES.\nAND</li>\n<li>YOU WILL NOT HAVE THE RIGHT TO PARTICIPATE AS A CLASS REPRESENTATIVE, PRIVATE ATTORNEY GENERAL, OR AS A MEMBER OF ANY CLASS OF CLAIMANTS FOR ANY DISPUTE SUBJECT TO ARBITRATION OR ANY DISPUTE BROUGHT IN COURT.</li>\n</ol>\n<p>Any Dispute regarding the prohibitions in the prior sections shall be resolved by the arbitrator in accordance with this Agreement.\nIf, for any reason, this class or collective action waiver is deemed unenforceable by a court or arbitrator,",
+      "services": [
+        "blizzard"
+      ],
+      "title": "You waive your right to a class action.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your right to a class action.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "blizzard.com",
+    "support.blizzard.com",
+    "careers.blizzard.com",
+    "us.blizzard.com",
+    "account.blizzard.com",
+    "communitytournaments.blizzardesports.com",
+    "news.blizzard.com",
+    "shop.blizzard.com",
+    "us.forums.blizzard.com",
+    "battle.net",
+    "shop.battle.net",
+    "us.shop.battle.net",
+    "us.battle.net",
+    "eu.shop.battle.net",
+    "kr.shop.battle.net",
+    "tw.shop.battle.net",
+    "shop.battlenet.com.cn",
+    "develop.battle.net",
+    "blizzard.gamespress.com",
+    "eu.battle.net",
+    "kr.battle.net",
+    "tw.battle.net",
+    "support.blizzardgames.cn",
+    "playoverwatch.com",
+    "overwatch2.playoverwatch.com",
+    "ow.blizzard.cn",
+    "blizzcon.playoverwatch.com",
+    "diablo.blizzard.com",
+    "diablo3.blizzard.com",
+    "eu.forums.blizzard.com",
+    "tw.forums.blizzard.com",
+    "kr.forums.blizzard.com",
+    "starcraft2.com",
+    "starcraft.com",
+    "gold.blizzard.cn",
+    "sc2.blizzard.cn",
+    "diabloimmortal.com",
+    "di.blizzard.cn",
+    "worldofwarcraft.com",
+    "wowchina.com",
+    "playheartstone.com",
+    "firesidegatherings.com",
+    "hs.blizzard.cn",
+    "heroesofthestorm.com",
+    "heroes.blizzard.cn",
+    "playwarcraft3.com",
+    "war3.blizzard.cn"
+  ]
+}

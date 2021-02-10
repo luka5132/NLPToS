@@ -1,0 +1,75 @@
+{
+  "alexa": 1415,
+  "class": false,
+  "links": {},
+  "points": [
+    "11668",
+    "11669",
+    "11670"
+  ],
+  "pointsData": {
+    "11668": {
+      "id": "11668",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 19405,
+      "quoteStart": 19326,
+      "quoteText": "THE SERVICES AND ALL CONTENT ARE DISTRIBUTED ON AN “AS IS, AS AVAILABLE” BASIS.",
+      "services": [
+        "searchencrypt"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11669": {
+      "id": "11669",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 24339,
+      "quoteStart": 24232,
+      "quoteText": "At any time and without notice to you, we may modify these Terms by posting revised Terms on the Services.\n",
+      "services": [
+        "searchencrypt"
+      ],
+      "title": " Terms may be changed any time at their discretion, without notice to the user ",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": " Terms may be changed any time at their discretion, without notice to the user ",
+        "point": "bad",
+        "score": 70,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "11670": {
+      "id": "11670",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service",
+      "quoteEnd": 20923,
+      "quoteStart": 20634,
+      "quoteText": "NEITHER WE NOR OUR PARTNERS, AFFILIATES, OPERATORS, OR PARENT COMPANIES SHALL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n</p>",
+      "services": [
+        "searchencrypt"
+      ],
+      "title": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "searchencrypt.com"
+  ]
+}

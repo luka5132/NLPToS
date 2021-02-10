@@ -1,0 +1,33 @@
+{
+  "alexa": 13514,
+  "class": false,
+  "links": {},
+  "points": [
+    "8476"
+  ],
+  "pointsData": {
+    "8476": {
+      "id": "8476",
+      "needModeration": false,
+      "quoteDoc": "Membership Agreement - USA Users",
+      "quoteEnd": 105,
+      "quoteStart": 3,
+      "quoteText": "We use cookies to personalise content and ads, provide social media features, and analyse our traffic.",
+      "services": [
+        "uphold"
+      ],
+      "title": "This service requires first-party cookies",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service requires first-party cookies",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "uphold.com"
+  ]
+}

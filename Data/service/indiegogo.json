@@ -1,0 +1,97 @@
+{
+  "alexa": 2104,
+  "class": false,
+  "links": {},
+  "points": [
+    "5648",
+    "5653",
+    "5656",
+    "5660"
+  ],
+  "pointsData": {
+    "5648": {
+      "id": "5648",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 48138,
+      "quoteStart": 47718,
+      "quoteText": "INDIEGOGO HAS NO FIDUCIARY DUTY TO ANY USER.\nTHE SERVICES, INDIEGOGO\nCONTENT, USER CONTENT, AND ANY OTHER MATERIALS MADE AVAILABLE OR THROUGH\nTHE USE OF THE SERVICES ARE PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS\nWITHOUT ANY WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, WITHOUT\nLIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A\nPARTICULAR PURPOSE, NONINFRINGEMENT OR COURSE OF PERFORMANCE",
+      "services": [
+        "indiegogo"
+      ],
+      "title": "The service is provided 'as is' and to be used at the users' sole risk",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service is provided 'as is' and to be used at the users' sole risk",
+        "point": "bad",
+        "score": 20,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5653": {
+      "id": "5653",
+      "needModeration": false,
+      "quoteDoc": "Terms of Use",
+      "quoteEnd": 21998,
+      "quoteStart": 21927,
+      "quoteText": "or use any kind of software to\n“crawl” or “spider” any part of the Site",
+      "services": [
+        "indiegogo"
+      ],
+      "title": "no spidering or crawling",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Spidering or crawling is not allowed",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5656": {
+      "id": "5656",
+      "needModeration": false,
+      "quoteDoc": "Cookie Policy",
+      "quoteEnd": 10323,
+      "quoteStart": 10208,
+      "quoteText": "It may not be possible for you to selectively opt out of all third-party advertising cookies placed on our website.",
+      "services": [
+        "indiegogo"
+      ],
+      "title": "This service employs third-party cookies, and doesn't allow opt-out of all cookies",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service employs third-party cookies, but with opt-out instructions",
+        "point": "bad",
+        "score": 5,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "5660": {
+      "id": "5660",
+      "needModeration": false,
+      "quoteDoc": "Cookie Policy",
+      "quoteEnd": 6442,
+      "quoteStart": 6224,
+      "quoteText": "We may place our statistics cookies on your device.\nThe information collected using our statistics cookies is used by us or for our benefit, to improve our website experience or for other statistics gathering purposes.",
+      "services": [
+        "indiegogo"
+      ],
+      "title": "This service uses third-party cookies for statistics",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service uses third-party cookies for statistics",
+        "point": "bad",
+        "privacyRelated": true,
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "indiegogo.com"
+  ]
+}

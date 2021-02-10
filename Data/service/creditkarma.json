@@ -1,0 +1,312 @@
+{
+  "alexa": 1199,
+  "class": false,
+  "links": {},
+  "points": [
+    "2463",
+    "4434",
+    "9344",
+    "9346",
+    "9347",
+    "9348",
+    "9349",
+    "9350",
+    "9351",
+    "9352",
+    "9354",
+    "9355",
+    "9357",
+    "9358"
+  ],
+  "pointsData": {
+    "2463": {
+      "approved": false,
+      "id": "2463",
+      "needModeration": false,
+      "quoteDoc": "",
+      "quoteText": "",
+      "services": [
+        "creditkarma"
+      ],
+      "slug": "JAhPTHzPRgm3sTzY4",
+      "submittedBy": "ELDAbHLCWaLpyQqz3",
+      "title": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+      "topics": [
+        "track",
+        "third",
+        "track",
+        "user-choice"
+      ],
+      "tosdr": {
+        "binding": true,
+        "case": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+        "point": "bad",
+        "score": 60,
+        "sources": [
+          "https://www.creditkarma.com/about/privacy"
+        ],
+        "tldr": "Even though the Do Not Track (DNT) header was not implemented perfectly, services should not track users whose browsers send a DNT header."
+      }
+    },
+    "4434": {
+      "id": "4434",
+      "needModeration": false,
+      "services": [
+        "creditkarma"
+      ],
+      "title": "The terms for this service are easy to read and include plain language summaries",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The terms for this service are easy to read",
+        "point": "good",
+        "score": 15,
+        "tldr": "Terms include a table of contents and most, but not all, sections include a plain language summary."
+      }
+    },
+    "9344": {
+      "id": "9344",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 1661,
+      "quoteStart": 1566,
+      "quoteText": "These Terms of Service include an agreement to resolve any disputes through binding arbitration",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "This service forces users into binding arbitration in the case of disputes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service forces users into binding arbitration in the case of disputes",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9346": {
+      "id": "9346",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 5076,
+      "quoteStart": 4802,
+      "quoteText": "We reserve the right in our sole and absolute discretion to make changes to how we operate and provide our Services, including adding new services, modifying existing services, or suspending, discontinuing, or terminating your access to any or all portions of our Services.\n",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "They may stop providing the service at any time",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "They may stop providing the service at any time",
+        "point": "bad",
+        "score": 40,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9347": {
+      "id": "9347",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 7356,
+      "quoteStart": 7203,
+      "quoteText": "If you decide to register, you’re pinky swearing that you’re a U.S.\nadult, you are who you say you are and you won’t let anyone else use your account.</p",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "You cannot distribute or disclose your account to third parties",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You cannot distribute or disclose your account to third parties",
+        "point": "neutral",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9348": {
+      "id": "9348",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 6338,
+      "quoteStart": 6306,
+      "quoteText": "You are 18 years of age or older",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "This service is only available to users of a certain age",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "This service is only available to users over a certain age",
+        "point": "neutral",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9349": {
+      "id": "9349",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 8515,
+      "quoteStart": 8284,
+      "quoteText": "I understand that my instructions let Credit Karma and affiliated companies obtain such information at any time for as long as I have a registered Credit Karma account to use as described in the Terms of Service and Privacy Policy.",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "The service's data retention period is kept to the minimum necessary for fulfilling its purposes",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service's data retention period is kept to the minimum necessary for fulfilling its purposes",
+        "point": "good",
+        "privacyRelated": true,
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9350": {
+      "id": "9350",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 8283,
+      "quoteStart": 7947,
+      "quoteText": "I understand that I am providing written instructions in accordance with the Fair Credit Reporting Act and other applicable law for Credit Karma or its affiliated companies to request and receive copies of consumer reports, scores and other information about me from third parties, including, but not limited to, TransUnion and Equifax.",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "Third parties may be involved in operating the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Third parties may be involved in operating the service",
+        "point": "bad",
+        "score": 15,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9351": {
+      "id": "9351",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 10819,
+      "quoteStart": 10512,
+      "quoteText": "We do not guarantee that the information we present as part of our Services, including credit report or credit score information, is the same information that may be used or reviewed by a third party to assess your creditworthiness or eligibility for any particular product or service or for employment.</p>",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "The service does not guarantee accuracy or reliability of the information provided",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service does not guarantee accuracy or reliability of the information provided",
+        "point": "bad",
+        "score": 10,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9352": {
+      "id": "9352",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 12850,
+      "quoteStart": 12785,
+      "quoteText": "You must comply with all applicable laws when using our Services.",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "Users agree to comply with the law of the service's country",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "Users agree to comply with the law of the service's country",
+        "point": "neutral",
+        "score": 0,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9354": {
+      "id": "9354",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 14230,
+      "quoteStart": 13698,
+      "quoteText": "We do not control, maintain, or endorse the Third Party Content or Third Party Services, and we are not responsible or liable for any Third Party Content or Third Party Services, including any damages, losses, failures, or problems caused by, related to, or arising from Third Party Content or Third Party Services.\nYour interactions and business dealings with the providers of the Third Party Content or Third Party Services, including products or services offered by such third parties, are solely between you and the third party.",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "The service warns you of the potential consequences related to third-party access",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service warns you of the potential consequences related to third-party access",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9355": {
+      "id": "9355",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 28981,
+      "quoteStart": 28443,
+      "quoteText": "You will defend (if requested by any Credit Karma Party), indemnify, and hold harmless the Credit Karma Parties from and against any and all claims, losses, expenses, demands, or liabilities, including attorneys’ fees and costs, incurred by the Credit Karma Parties in connection with any claim by a third party arising out of or in any way related to: (1) your use of our Services, our Content or the Community Content.\n(2) your violation or alleged violation of the Agreement or your violation or alleged violation of any applicable law",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You agree to defend, indemnify, and hold the service harmless in case of a claim related to your use of the service",
+        "point": "bad",
+        "score": 60,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9357": {
+      "id": "9357",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 31408,
+      "quoteStart": 31296,
+      "quoteText": "YOU AND CREDIT KARMA ARE EACH WAIVING THE RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE IN A CLASS ACTION.</strong>",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "You waive your right to a class action.",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "You waive your right to a class action.",
+        "point": "bad",
+        "score": 50,
+        "tldr": "Generated through the annotate view"
+      }
+    },
+    "9358": {
+      "id": "9358",
+      "needModeration": false,
+      "quoteDoc": "Terms of Service (full)",
+      "quoteEnd": 14712,
+      "quoteStart": 14404,
+      "quoteText": "We are not responsible for any information that you agree to share with third parties in connection with Third Party Content or Third Party Services.</p>\n<blockquote>\nSummary\n<p>We might show you stuff from other companies or even connect you with them, but we’re not legally responsible for anything they do",
+      "services": [
+        "creditkarma"
+      ],
+      "title": "The service warns you of the potential consequences related to third-party access",
+      "topics": [],
+      "tosdr": {
+        "binding": true,
+        "case": "The service warns you of the potential consequences related to third-party access",
+        "point": "good",
+        "score": 30,
+        "tldr": "Generated through the annotate view"
+      }
+    }
+  },
+  "urls": [
+    "creditkarma.com"
+  ]
+}
