@@ -8,9 +8,9 @@ Created on Mon Feb  8 12:57:57 2021
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import re
-import requests
-from boilerpy3 import extractors
-from selenium import webdriver
+#import requests
+#from boilerpy3 import extractors
+#from selenium import webdriver
 import trafilatura
 import json
 import glob
@@ -18,44 +18,40 @@ import os
 import random
 import string
 
-
-#options = webdriver.ChromeOptions()
-#options.add_argument('--ignore-certificate-errors')
-#options.add_argument('--incognito')
-#options.add_argument('--headless')
-#driver = webdriver.Chrome(r"C:\Users\luka5132\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe", chrome_options=options) 
-
-
-privacywords = ["privacy", "policy", "user", "statement", "policies", "data", 
-                "regulations", "rules", "protection", "legislation"]
-toswords = ["terms","service","agreement","user","contract","use","conditions","condition",
-            "using","contract"]
-
 script_dir = os.getcwd()
 ptall = os.path.join(os.sep, script_dir,"Data/all.json")
 ptservice = os.path.join(os.sep, script_dir,"Data/service")
 
 
+TEST = False
+LOAD = False
 
-LOAD = True
-lodata = []
-errors = []
+
+def stringIsLatin(s):
+    return all([c in string.printable for c in s])
+
 if LOAD:
+    lodata = []
+    errors = []
     for filename in glob.glob(os.path.join(ptservice, '*.json')):
-        with open(filename,'r', encoding="utf8") as f:
-            s = f.read()
-            try:
-                data = json.loads(s)
-                lodata.append(data)
-            except json.decoder.JSONDecodeError as e:
-               errors.append((filename, e.msg))
-        
+        if stringIsLatin(filename):
+            with open(filename,'r', encoding="utf8") as f:
+                s = f.read()
+                try:
+                    data = json.loads(s)
+                    lodata.append(data)
+                except json.decoder.JSONDecodeError as e:
+                   errors.append((filename, e.msg))
+            
     with open(ptall, "r", encoding="utf8") as f:
         s = f.read()
         try:
             alldata = json.loads(s)
         except json.decoder.JSONDecodeError as e:
             print(e.msg,e.pos, e.doc[e.pos-50:e.pos+50])
+
+
+
 
 
 
@@ -74,12 +70,8 @@ def getLinks(url, keyword = False):
     return links
 
 def getWebsiteName(url):
-    if url.startswith("https://"):
-        url = url[8:]
-    if url.startswith("www."):
-        url = url[4:]
-    dotpos = url.index(".")
-    return url[:dotpos]
+    urlsplit = url.split(".")
+    return urlsplit[1]
 
 
 def getFilterSet(jsonfile):
@@ -98,6 +90,8 @@ def getFilterSet(jsonfile):
         
         
 def filterLinks(lolinks, pointsdict):
+    """simple word counting method, definetly not best method, should look for
+    more advanced"""
     linksdict = {}
     for doc in pointsdict:
         linkslist = []
@@ -115,46 +109,7 @@ def filterLinks(lolinks, pointsdict):
     
     return linksdict
 
-#privacy = getLinks("https://arstechnica.com", "privacy")
-#terms = getLinks("https://arstechnica.com", "terms")
 
-#print( privacy, terms )
-#print( getLinks("https://arstechnica.com", "agreement") )
-
-#URL = privacy[0]
-#page = requests.get(URL)
-#soup = BeautifulSoup(page.content, 'html.parser')
-#html_page = urlopen(URL)
-
-#downloaded = trafilatura.fetch_url(URL)
-#text = trafilatura.extract(downloaded)
-#text = text.replace("\n", " ")
-
-def parse_html(html_path):
-    with open(html_path, 'r') as fr:
-        html_content = fr.read()
-        soup = BeautifulSoup(html_content, 'html.parser')
-
-        # Check that file is valid HTML
-        if not soup.find():
-            raise ValueError("File is not a valid HTML file")
-
-        # Check the language of the file
-        tag_meta_language = soup.head.find("meta", attrs={"http-equiv": "content-language"})
-        if tag_meta_language:
-            document_language = tag_meta_language["content"]
-            if document_language and document_language not in ["en", "en-us", "en-US"]:
-                raise ValueError("Language {} is not english".format(document_language))
-
-        # Get text from the specified tags. Add more tags if necessary.
-        TAGS = ['p']
-        return ' '.join([remove_newline(tag.text) for tag in soup.findAll(TAGS)])
-    
-#extractor = extractors.ArticleExtractor()
-#content = extractor.get_content_from_url(URL)
-
-#text =[''.join(s.findAll(text=True))for s in soup.findAll('p')]
-        
 def chooselink(listoflinks, keywords):
     possiblelinks = []
     for link in listoflinks:
@@ -165,3 +120,48 @@ def chooselink(listoflinks, keywords):
         if count >= 2:
             possiblelinks.append(link)
     return possiblelinks
+
+def pickRandomFile(lodata):
+    n = len(lodata)
+    return random.randint(0,n-1)
+    
+def inspectData(lodata):
+    infdict = {}
+    pagesrefferenced = 0
+    totquotes = 0
+    for rev in lodata:
+        revdict = {}
+        url = rev["urls"][0]
+        webpages = set()
+        nquotes = 0
+        pd = rev["pointsData"]
+        for p in pd:
+            point = pd[p]
+            totquotes += 1
+            nquotes += 1
+            try:
+                webpages.add(point["quoteDoc"])
+            except:
+                print(point)
+        pagesrefferenced += len(webpages)
+        
+        revdict["webpages"] = webpages
+        revdict["nqt"] = nquotes
+        infdict[url] = revdict
+        
+    infdict["totpages"] = pagesrefferenced
+    infdict["totquotes"] = totquotes
+    
+    return infdict
+
+
+if TEST:
+    
+    URL = pickRandomFile(lodata)
+    #page = requests.get(URL)
+    #soup = BeautifulSoup(page.content, 'html.parser')
+    #html_page = urlopen(URL)
+
+    downloaded = trafilatura.fetch_url(URL)
+    text = trafilatura.extract(downloaded)
+    text = text.replace("\n", " ")
