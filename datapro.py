@@ -31,9 +31,9 @@ privacywords = ["privacy", "policy", "user", "statement", "policies", "data",
 toswords = ["terms","service","agreement","user","contract","use","conditions","condition",
             "using","contract"]
 
-path_to_data = "/Data"
-ptjson = path_to_data + "/all.json"
-ptservice = path_to_data + "/service"
+script_dir = os.getcwd()
+ptall = os.path.join(os.sep, script_dir,"Data/all.json")
+ptservice = os.path.join(os.sep, script_dir,"Data/service")
 
 
 
@@ -50,7 +50,7 @@ if LOAD:
             except json.decoder.JSONDecodeError as e:
                errors.append((filename, e.msg))
         
-    with open(ptjson, "r", encoding="utf8") as f:
+    with open(ptall, "r", encoding="utf8") as f:
         s = f.read()
         try:
             alldata = json.loads(s)
