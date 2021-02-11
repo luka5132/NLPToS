@@ -10,11 +10,16 @@ import os
 import random
 import string
 import re
+import pandas
+from bs4 import BeautifulSoup
+import trafilatura
+
 
 script_dir = os.getcwd()
 ptall = os.path.join(os.sep, script_dir,"Data/all.json")
 ptservice = os.path.join(os.sep, script_dir,"Data/service")
 ptcleanservice = os.path.join(os.sep, script_dir,"Data/serviceclean.json")
+
 
 
 def stringIsLatin(s):
@@ -31,9 +36,8 @@ def loadCleanServiceData():
         return json.loads(s)
 
             
-def pickRandomFile(lodata):
-    n = len(lodata)
-    return random.randint(0,n-1)
+def pickRandomFile(datadict):
+    return random.choice(list(datadict.values()))
 
 def getWebsiteName(url):
     urlsplit = url.split(".")
@@ -52,6 +56,106 @@ def getFilterSet(jsonfile):
         wordset = set(doc.split())  
         pointdsict[doc] = wordset
     return pointdsict
+
+def getFullUrl(url):
+    if url.startswith("https://www."):
+        return url
+    elif url.startswith("www."):
+        return "https://" + url
+    else:
+        return "https://www." + url
+    
+    
+def getColumnnames(datadict):
+    initialset = set()
+    pdset = set()
+    for fkeys in datadict:
+        afile = datadict[fkeys]
+        inkeys = afile.keys()
+        for akey in inkeys:
+            initialset.add(akey)
+        pd = afile["pointsData"]
+        for pdid in pd:
+            pi = pd[pdid]
+            for p in pi:
+                pdset.add(p)
+            try:
+                tosdr = pi["tosdr"]
+                for tosdrkey in tosdr:
+                    pdset.add(tosdrkey)
+            except:
+                pass
+    return list(initialset) + list(pdset)
+
+colnames = ['url','alexa', 'class', 'id','quote','quoteDoc','quoteText',
+            'title',"source", 'binding','score',"point", "case"]
+    
+def tryfromdict(adict, poskey):
+    try:
+        return adict[poskey]
+    except:
+        return None
+    
+l1 = ["url","alexa","class"]
+l2 = ["id","quote","quoteDoc","quoteText","title","source"]
+l3 = ['binding','score',"points", "case"]
+
+def dicttocsv(adict, columnnames):
+    pddf = pandas.DataFrame(columns = columnnames)
+    l1 = ["url","alexa","class"]
+    l2 = ["id","quote","quoteDoc","quoteText","title","source"]
+    l3 = ['binding','score',"point", "case"]
+    l2l3len = len(columnnames) - 3
+    pddf_i = 0
+    for keyname in adict.keys():
+        l1list = [None] * 3
+        newkeyname = getFullUrl(keyname)
+        l1list[0] = newkeyname
+        afile = adict[keyname]
+        i = 1
+        for point1 in l1[1:]:
+            a = tryfromdict(afile,point1)
+            if a:
+                l1list[i] = a
+            i +=1
+        apd = afile["pointsData"]
+        for pdid in apd:
+            point = apd[pdid]
+            index = 0
+            l2l3list = [None] * l2l3len
+            for point2 in l2:
+                b = tryfromdict(point,point2)
+                if b:
+                    l2l3list[index] = b
+                index += 1
+            try:
+                tosdr = point["tosdr"]
+                for point3 in l3:
+                    c = tryfromdict(tosdr,point3)
+                    if c:
+                        l2l3list[index] = c
+                    index +=1
+            except:
+                pass
+            newrow = l1list + l2l3list
+            pddf.loc[pddf_i] = newrow
+            pddf_i += 1
+            
+    return pddf
+        
+                        
+def cleanText(s):
+    return trafilatura.extract(s).replace("\n",'')
+
+def cleanColumn(pddf, colname):
+    col = pddf[colname]
+    collist = []
+    for text in col:
+        try:
+            collist.append(cleanText(text))
+        except:
+            collist.append('')
+    return collist
 
 ############################################################################3
 #These function do not need to be used anymore, were used to inspect the data
@@ -110,7 +214,12 @@ def cleanData(lodata):
             pass
     return newdict
 
+path = r"C:\Users\luka5132\Documents\GitHub\NLPToS"
+
 def saveJson(adict, filename, path = ''):
     with open(path + filename+ '.json', 'w') as outfile:
         json.dump(adict, outfile)
+        
+def saveCSV(adf, filename, path = path):
+    adf.to_csv (path + filename + ".csv", index = False, header=True)
     

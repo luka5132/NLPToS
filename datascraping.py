@@ -12,6 +12,13 @@ import re
 #from boilerpy3 import extractors
 #from selenium import webdriver
 import trafilatura
+from difflib import SequenceMatcher
+import datainspection
+
+"""Remove website part when looking at similarity score"""
+
+def similarityScore(s1, s2):
+    return SequenceMatcher(None, s1, s2).ratio()
 
 def getLinks(url, keyword = False):
     html_page = urlopen(url)
@@ -49,7 +56,8 @@ def filterLinks(lolinks, pointsdict):
     return linksdict
 
 
-def chooselink(listoflinks, keywords):
+def chooselink(listoflinks, keywords, url = ""):
+    #Bag of Words kinda method
     possiblelinks = []
     for link in listoflinks:
         count = 0 
@@ -59,6 +67,17 @@ def chooselink(listoflinks, keywords):
         if count >= 2:
             possiblelinks.append(link)
     return possiblelinks
+
+def chooseLink2(listoflinks, url, quoteDoc):
+    linksandscores = []
+    for link in listoflinks:
+        link = link.replace(url,"")
+        score = similarityScore(link, quoteDoc)
+        linksandscores.append((link,score))
+    return linksandscores
+
+def linksdict(listoflinks,url,jsonfile):
+    pass
 
 
     
