@@ -143,19 +143,23 @@ def dicttocsv(adict, columnnames):
             
     return pddf
         
-                        
-def cleanText(s):
-    return trafilatura.extract(s).replace("\n",'')
+def remove_html_tags(text):
+    """Remove html tags from a string"""
+    import re
+    clean = re.compile('<.*?>')
+    return re.sub(clean, '', text).replace("\n",'')
 
 def cleanColumn(pddf, colname):
     col = pddf[colname]
     collist = []
     for text in col:
         try:
-            collist.append(cleanText(text))
+            collist.append(remove_html_tags(text))
         except:
             collist.append('')
     return collist
+
+
 
 ############################################################################3
 #These function do not need to be used anymore, were used to inspect the data
@@ -165,7 +169,9 @@ def inspectData(lodata):
     infdict = {}
     pagesrefferenced = 0
     totquotes = 0
-    for rev in lodata:
+    typeset = set()
+    for revkey in lodata:
+        rev = lodata[revkey]
         revdict = {}
         url = rev["urls"][0]
         webpages = set()
@@ -177,6 +183,7 @@ def inspectData(lodata):
             nquotes += 1
             try:
                 webpages.add(point["quoteDoc"])
+                typeset.add(type(point["quoteDoc"]))
             except:
                 print(point)
         pagesrefferenced += len(webpages)
@@ -187,6 +194,7 @@ def inspectData(lodata):
         
     infdict["totpages"] = pagesrefferenced
     infdict["totquotes"] = totquotes
+    infdict["types"] = typeset
     
     return infdict
 
