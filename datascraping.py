@@ -13,7 +13,7 @@ import re
 #from selenium import webdriver
 import trafilatura
 from difflib import SequenceMatcher
-import datainspection
+import datainspection as di
 
 """Remove website part when looking at similarity score"""
 
@@ -55,7 +55,6 @@ def filterLinks(lolinks, pointsdict):
     
     return linksdict
 
-
 def chooselink(listoflinks, keywords, url = ""):
     #Bag of Words kinda method
     possiblelinks = []
@@ -70,14 +69,28 @@ def chooselink(listoflinks, keywords, url = ""):
 
 def chooseLink2(listoflinks, url, quoteDoc):
     linksandscores = []
+    url = di.getFullUrl(url)
     for link in listoflinks:
         link = link.replace(url,"")
         score = similarityScore(link, quoteDoc)
-        linksandscores.append((link,score))
-    return linksandscores
+        linksandscores.append((link,score)) 
 
-def linksdict(listoflinks,url,jsonfile):
-    pass
+    def sortTuple(tup):  
+        tup.sort(key = lambda x: x[1], reverse = True)  
+        return tup
+    
+    return sortTuple(linksandscores)
+
+def linksAndScores(pddf, url):
+    listoflinks = getLinks(url)
+    c_data = pddf[pddf["url"] == url]
+    quotedocs = list(set(c_data.quoteDoc))
+    linksdict = {}
+    for quotedoc in quotedocs:
+        scorelist = chooseLink2(listoflinks, url, quotedoc)
+        linksdict[quotedoc] = scorelist
+    return linksdict
+    
 
 
     

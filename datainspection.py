@@ -12,18 +12,25 @@ import string
 import re
 import pandas
 from bs4 import BeautifulSoup
-import trafilatura
+from langdetect import detect
+
 
 
 script_dir = os.getcwd()
 ptall = os.path.join(os.sep, script_dir,"Data/all.json")
 ptservice = os.path.join(os.sep, script_dir,"Data/service")
 ptcleanservice = os.path.join(os.sep, script_dir,"Data/serviceclean.json")
-
+quotespath = os.path.join(os.sep, script_dir,"Data/quotes.csv")
 
 
 def stringIsLatin(s):
     return all([c in string.printable for c in s])
+
+def stringIsEnglish(s):
+    try:
+        return detect(s) == "en"
+    except:
+        return False
 
 def loadAllData():      
     with open(ptall, "r", encoding="utf8") as f:
@@ -34,10 +41,21 @@ def loadCleanServiceData():
     with open(ptcleanservice, "r", encoding="utf8") as f:
         s = f.read()
         return json.loads(s)
+    
+def loadQuotes():
+    return pandas.read_csv(quotespath)
 
-            
-def pickRandomFile(datadict):
+def pickRandomJsonFile(datadict):
     return random.choice(list(datadict.values()))
+
+def pickRandomCsvFile(pddf, n = 1):
+    allurls = pddf.url.unique()
+    urllist = []
+    for i in range(n):
+        urllist.append(random.choice(allurls))
+        
+    return pddf[pddf.url.isin(urllist)]
+    
 
 def getWebsiteName(url):
     urlsplit = url.split(".")
@@ -159,7 +177,9 @@ def cleanColumn(pddf, colname):
             collist.append('')
     return collist
 
-
+def removeNonEnglish(pddf):
+    englishtext = [s for s in pddf["quoteText"] if stringIsEnglish(s)]
+    return pddf[pddf.quoteText.isin(englishtext)]
 
 ############################################################################3
 #These function do not need to be used anymore, were used to inspect the data
@@ -222,7 +242,7 @@ def cleanData(lodata):
             pass
     return newdict
 
-path = r"C:\Users\luka5132\Documents\GitHub\NLPToS"
+path = r"C:\Users\luka5132\Documents\GitHub\NLPToS\\"
 
 def saveJson(adict, filename, path = ''):
     with open(path + filename+ '.json', 'w') as outfile:
