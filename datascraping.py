@@ -24,8 +24,6 @@ if LOADDATA:
     pddf = di.loadQuotes()
     texts = di.loadTexts()
 
-
-
 def similarityScore(s1, s2):
     return SequenceMatcher(None, s1, s2).ratio()
 
@@ -139,6 +137,31 @@ def textFromLinks(linksdict, colnames = cols, startlink = None):
                 except:
                     pass
     return None
+
+def quoteInText(quotes, texts):
+    uniqueurls = list(set(texts.url))
+    urlsnotquoted = []
+    urldict = {}
+    for url in uniqueurls:
+        subquotes = False
+        try:
+            subquotes = quotes[quotes["url"] == url]
+        except:
+            urlsnotquoted.append(url)
+        
+        subtext = texts[url]
+        quotesdict = {}
+        if subquotes:
+            for text in subtext.text:
+                for quote in subquotes["quoteText"]:
+                    subquote = subquotes[subquotes["quoteText" == quote]]
+                    quote_id = subquote["id"]
+                    if quote in text:
+                        quotesdict[quote_id] = subtext["source_url"]
+                    else:
+                        quotesdict[quote_id] = False
+        urldict[url] = quotesdict
+    return urldict
     
 #URL = pickRandomFile(lodata)
 #page = requests.get(URL)
