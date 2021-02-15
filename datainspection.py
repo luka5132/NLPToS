@@ -21,6 +21,8 @@ ptall = os.path.join(os.sep, script_dir,"Data/all.json")
 ptservice = os.path.join(os.sep, script_dir,"Data/service")
 ptcleanservice = os.path.join(os.sep, script_dir,"Data/serviceclean.json")
 quotespath = os.path.join(os.sep, script_dir,"Data/quotes.csv")
+textspath = os.path.join(os.sep, script_dir,"Data/englishtexts.csv")
+
 
 
 def stringIsLatin(s):
@@ -55,6 +57,9 @@ def pickRandomCsvFile(pddf, n = 1):
         urllist.append(random.choice(allurls))
         
     return pddf[pddf.url.isin(urllist)]
+
+def loadTexts():
+    return pandas.read_csv(textspath, encoding="unicode_escape")
     
 
 def getWebsiteName(url):
@@ -82,6 +87,22 @@ def getFullUrl(url):
         return "https://" + url
     else:
         return "https://www." + url
+
+
+def stemUrl(url):
+    domains = [".com", ".org", ".net", ".edu", ".gov"]
+    domname = None
+    i = 0
+    while not domname and i < len(domains):
+        dom = domains[i]
+        if dom in url:
+            domname = dom
+        i +=1
+    if domname:
+        parts = url.partition(dom)
+        return parts[0] + parts[1]
+    else:
+        return url
     
     
 def getColumnnames(datadict):
@@ -181,6 +202,33 @@ def removeNonEnglish(pddf):
     englishtext = [s for s in pddf["quoteText"] if stringIsEnglish(s)]
     return pddf[pddf.quoteText.isin(englishtext)]
 
+def getLinksFromDict(adict):
+    linkslist = []
+    for rev in adict:
+        file = adict[rev]
+        if file["links"]:
+            try:
+                for link in file["links"].values():
+                    url = link["url"]
+                    linkslist.append(url)
+            except:
+                pass
+    
+    return linkslist
+
+
+def websiteAndLlinks(adict):
+    links = getLinksFromDict(adict)
+    linksdict = {}
+    for link in links:
+        stemmed = stemUrl(link)
+        if stemmed in linksdict:
+            linksdict[stemmed].append(link)
+        else:
+            linksdict[stemmed] = [link]
+    return linksdict
+        
+
 ############################################################################3
 #These function do not need to be used anymore, were used to inspect the data
 # and to clean the data as well, used to create serviceclean.
@@ -242,7 +290,7 @@ def cleanData(lodata):
             pass
     return newdict
 
-path = r"C:\Users\luka5132\Documents\GitHub\NLPToS\\"
+path = r"C:\Users\luka5132\Documents\GitHub\NLPToS\data\\"
 
 def saveJson(adict, filename, path = ''):
     with open(path + filename+ '.json', 'w') as outfile:

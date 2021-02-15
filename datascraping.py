@@ -14,8 +14,17 @@ import re
 import trafilatura
 from difflib import SequenceMatcher
 import datainspection as di
+import pandas
+import csv
 
-"""Remove website part when looking at similarity score"""
+LOADDATA= True
+if LOADDATA:
+    cdd = di.loadCleanServiceData()
+    weblinks = di.websiteAndLlinks(cdd)
+    pddf = di.loadQuotes()
+    texts = di.loadTexts()
+
+
 
 def similarityScore(s1, s2):
     return SequenceMatcher(None, s1, s2).ratio()
@@ -92,7 +101,44 @@ def linksAndScores(pddf, url):
     return linksdict
     
 
+cols = ["url","source_url","text"]
+path = r"C:\Users\luka5132\Documents\GitHub\NLPToS\data\\"
 
+
+stopped = "https://www.visible.com/legal/terms-of-use"
+
+def textFromLinks(linksdict, colnames = cols, startlink = None):
+    linkneeded = False
+    if startlink:
+        linkneeded = True
+    else:
+        with open('texts.csv', 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(colnames)
+            
+    for link in linksdict:
+        linkslist = linksdict[link]
+        for sourcelink in linkslist:
+            if linkneeded:
+                print("Skipping: ",sourcelink)
+                linkneeded = not startlink == sourcelink
+            else:
+                print("Processing: ",sourcelink)
+                try:
+                    downloaded = trafilatura.fetch_url(sourcelink)
+                    text = trafilatura.extract(downloaded)
+                    text = text.replace("\n", " ")
+                except:
+                    text = ''
+                
+                newrow = [link, sourcelink, text]
+                try:
+                    with open('texts.csv', 'a') as f:
+                        writer = csv.writer(f)
+                        writer.writerow(newrow)
+                except:
+                    pass
+    return None
     
 #URL = pickRandomFile(lodata)
 #page = requests.get(URL)
