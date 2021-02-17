@@ -16,13 +16,14 @@ from difflib import SequenceMatcher
 import datainspection as di
 import pandas
 import csv
+import time
 
 LOADDATA= True
 if LOADDATA:
     cdd = di.loadCleanServiceData()
     weblinks = di.websiteAndLlinks(cdd)
-    pddf = di.loadQuotes()
-    texts = di.loadTexts()
+    quotesdf = di.loadQuotes()
+    textsdf = di.loadTexts()
 
 def similarityScore(s1, s2):
     return SequenceMatcher(None, s1, s2).ratio()
@@ -138,30 +139,74 @@ def textFromLinks(linksdict, colnames = cols, startlink = None):
                     pass
     return None
 
-def quoteInText(quotes, texts):
+def quoteInText(quotes, texts, simscore = 0.9, newdf = True):
     uniqueurls = list(set(texts.url))
+    
     urlsnotquoted = []
-    urldict = {}
+    
+    if newdf:
+        outputdf = pandas.DataFrame(columns = quotes.keys())
+    
+    
+    thingsfound = 0
+    nquotes = 0
     for url in uniqueurls:
-        subquotes = False
+        found = False
         try:
             subquotes = quotes[quotes["url"] == url]
+            found = True
         except:
             urlsnotquoted.append(url)
         
-        subtext = texts[url]
-        quotesdict = {}
-        if subquotes:
-            for text in subtext.text:
-                for quote in subquotes["quoteText"]:
-                    subquote = subquotes[subquotes["quoteText" == quote]]
-                    quote_id = subquote["id"]
-                    if quote in text:
-                        quotesdict[quote_id] = subtext["source_url"]
-                    else:
-                        quotesdict[quote_id] = False
-        urldict[url] = quotesdict
-    return urldict
+        subtext = texts[texts["url"] == url]
+        
+        if found:
+            subtexts = list(subtext.text)
+            texts_surl = list(subtext.source_url)
+            strquotes = list(subquotes["quoteText"])
+            t_n = len(subtexts)
+            
+            
+            for quote in strquotes:
+                t_i = 0
+                nquotes += 1
+                quoteintext = False
+                while t_i < t_n and not quoteintext:
+                    text = subtexts[t_i]
+                    print("processing quote: ",nquotes,"in text: ",t_i," total is: ",thingsfound)
+                    try:
+                        bestmatch = di.get_best_match(quote,text)
+                        print("quote: ",quote)
+                        print("\n\n")
+                        print("bestmatch: ",bestmatch[0])
+                        print("score: ",bestmatch[1])
+                        if bestmatch[1] >= simscore:
+                            
+                            thingsfound +=1
+                            source_url =  texts_surl[t_i]
+                            
+                            if newdf:
+                                subquotes.loc[subquotes.quoteText == quote, 'source'] = source_url
+                            else:
+                                qindex = subquotes.index[subquotes.quoteText == quote][0]
+                                quotes.loc[qindex, 'source'] = source_url
+                            quoteintext = True
+                    except:
+                        pass
+                    
+                    t_i += 1
+            
+        if newdf:
+            outputdf = outputdf.append(subquotes, ignore_index = True)
+     
+    print(thingsfound, nquotes)    
+    if newdf:
+        return outputdf
+    else:
+        return quotes
+    
+    
+
     
 #URL = pickRandomFile(lodata)
 #page = requests.get(URL)
