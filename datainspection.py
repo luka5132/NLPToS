@@ -24,6 +24,7 @@ textspath = os.path.join(os.sep, script_dir,"Data/texts.csv")
 
 
 
+
 def stringIsLatin(s):
     return all([c in string.printable for c in s])
 
@@ -79,13 +80,21 @@ def getFilterSet(jsonfile):
         pointdsict[doc] = wordset
     return pointdsict
 
-def getFullUrl(url):
-    if url.startswith("https://www."):
+def addUrl(url):
+    if url.startswith("https://www.") or url.startswith("https://"):
         return url
     elif url.startswith("www."):
         return "https://" + url
     else:
         return "https://www." + url
+    
+def getFullUrl(url, link):
+    if link:
+        if "." not in link:
+            return addUrl(url) + link
+        else:
+            return addUrl(link)
+    else: return url
 
 
 def stemUrl(url):
