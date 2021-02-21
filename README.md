@@ -8,6 +8,9 @@ As well as serving as the final product I wll continously update here, this way 
 
 ## Current plan:
 
+## Found new dataset:
+https://www.kaggle.com/gauthamp10/google-playstore-apps
+
 ### General idea and contributions:
 With this project I hope to make the following contributions:
   1) (Help) create a dataset containing PP(Privacy Policies) and ToS(Terms of Services) of different websites.
