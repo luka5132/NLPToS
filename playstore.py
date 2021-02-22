@@ -19,7 +19,7 @@ pttoplaydata = os.path.join(os.sep, script_dir,"Data/playstore/Google-Playstore.
 def loadPlaystore():
     return pandas.read_csv(pttoplaydata)
 
-LOAD = True
+LOAD = False
 if LOAD:
     play_df = loadPlaystore()
 
@@ -34,5 +34,7 @@ def colStringToFloat(adf, colname):
     
     return [returnFloat(x) for x in col]
 
+subdf = play_df[play_df["Intinstalls"] > 50000]
 
-print(play_df[:5])
+
+print(subdf[:5], len(subdf))
