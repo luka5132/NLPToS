@@ -18,5 +18,7 @@ Blablabla dida
  ### Building the hierarchical system
  To train the BERT classifcation models I used Kaggle's notebook, here one is able to use a GPU for up to 40 hours a week. Just like *privbert_training.ipynb* is also available here on this github page it was created and is better read on Kaggle. One can find the different codes and datasets that were used on my profile: https://www.kaggle.com/lukasbusch
  
+ Each notebook has explanations inside. For the .py files, which were created when pieces of code were used more than once, there is an additional notebook called *class_explanations.ipynb* in which these scripts (classes) are explained/ looked at.
+ 
  ### Other notebooks
  The only notebook that cannot be found on either my Kaggle or Google Colab is *sqlite_reading.ipynb*, this notebook was used to read and process the raw privacy policies that were used to create the fine-tuned BERT model.
