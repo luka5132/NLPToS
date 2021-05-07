@@ -1,0 +1,51 @@
+,k,class,train_size,val_size,test_size
+0,0,Data Retention,59,4,15
+1,0,Data Security,136,23,51
+2,0,Do Not Track,20,3,8
+3,0,First Party Collection/Use,763,156,290
+4,0,International and Specific Audiences,188,36,77
+5,0,Other,710,126,222
+6,0,Policy Change,72,15,32
+7,0,Third Party Sharing/Collection,597,119,229
+8,0,"User Access, Edit and Deletion",98,17,34
+9,0,User Choice/Control,201,59,98
+10,1,Data Retention,55,6,17
+11,1,Data Security,136,22,52
+12,1,Do Not Track,18,2,11
+13,1,First Party Collection/Use,775,115,319
+14,1,International and Specific Audiences,182,35,84
+15,1,Other,704,92,262
+16,1,Policy Change,65,18,36
+17,1,Third Party Sharing/Collection,598,107,240
+18,1,"User Access, Edit and Deletion",93,14,42
+19,1,User Choice/Control,239,34,85
+20,2,Data Retention,55,10,13
+21,2,Data Security,135,34,41
+22,2,Do Not Track,21,4,6
+23,2,First Party Collection/Use,693,166,350
+24,2,International and Specific Audiences,187,50,64
+25,2,Other,666,147,245
+26,2,Policy Change,69,21,29
+27,2,Third Party Sharing/Collection,573,126,246
+28,2,"User Access, Edit and Deletion",91,25,33
+29,2,User Choice/Control,204,69,85
+30,3,Data Retention,57,6,15
+31,3,Data Security,122,22,66
+32,3,Do Not Track,22,4,5
+33,3,First Party Collection/Use,750,148,311
+34,3,International and Specific Audiences,200,30,71
+35,3,Other,664,107,287
+36,3,Policy Change,69,13,37
+37,3,Third Party Sharing/Collection,609,100,236
+38,3,"User Access, Edit and Deletion",95,16,38
+39,3,User Choice/Control,223,42,93
+40,4,Data Retention,38,10,30
+41,4,Data Security,117,27,66
+42,4,Do Not Track,18,5,8
+43,4,First Party Collection/Use,755,147,307
+44,4,International and Specific Audiences,158,38,105
+45,4,Other,663,134,261
+46,4,Policy Change,70,15,34
+47,4,Third Party Sharing/Collection,592,148,205
+48,4,"User Access, Edit and Deletion",98,18,33
+49,4,User Choice/Control,218,55,85
