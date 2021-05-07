@@ -1,36 +1,22 @@
 # NLPToS
-## Optimizng BERT for privacy policy classificatoin
+## Building a hierarchical advice system
 Lukas Busch, AUC Capstone Project
 
 This Github page will contain the code and data used for the AUC Capstone Project. 
 As well as serving as the final product I wll continously update here, this way I hope to have everything centralized and clean.
 
 
-## Current plan:
+## Abstract of paper:
 
-The Reserach Proposal can be found on this GitHub page under the folder *Documents* 
+Blablabla dida
 
-Current updates beyond Research Proposal:
-  1) Using [Google's cloud TPU](https://cloud.google.com/tpu) to run my pre-training model for "PrivBert" as well as optimizng the fine-tuning. This Cloud service not only runs the quickest, but it is also the cleanest Machine Training cloud. 
-  2)  Used the [transformers huggingface](https://huggingface.co/transformers/) "bert-base-uncased" model for a classification model. However, I was unable to load a local (smaller) BERT model, which could be easier to train with.
-  3)  Have to figure out how feasible it is to create a usable extension.
+## Guide through Github
 
-
-## Google Cloud API
-
-In the [SciBERT paper](https://arxiv.org/abs/1903.10676) the authors explain how they use a single TPU v3 with 8 cores to train their BERT model for 7 days, using a corpus of 3.3 Bilion tokens.
-Using the dataset obtained by [Amos et al. (2020)](https://arxiv.org/abs/2008.09159) I plan to train my BERT model using 661M tokens. 
-If we assume linear scaling of the data (which I am not sure of if that is correct) I would have to train my model for only 1/5 of the time, so 7/5= 1.4 days. Which is 1.4 times 24 hours = 33.6 hours. 
-The pricing for a TPU v3 with 8 cores is $2.64 per hour. So the total price for pre-training would be 33.6x2.64 = $88.70. 
-Google offers $300 as introduction, so I believe it should be able for me to not go over this amount.
-
-## Stuff to figure out still:
-1) How exactly does the google cloud TPU work
-2) How does the data for BERT scale (could see if I could make this quesiton part of my research)
-3) What would my classification model look like exactly (labels / classes)
-  3.1) I will for sure try to classify text segnments on one of the 10 major classes
-  3.2) Would be interesting to see if sentence classification can be used within these segments to classify the subclasses. This could also be used to verify the main classes (for each main class you have specific subclasses. If I were to train not 1 but 2 models, one that tries to classify texts in segments and one that classifices the sentences for segments, I could use the confidence scores of the two classes combined to see if I can predict a better classification of the main class)
-
-4) How difficult is it to make an application for the model? (maybe too much)
+ ### Fine-tuning privbert model
+ For fine-tuning my model on the privacy policy corpus I made use of 'Google Cloud/Colab' as one is able to freely leverage their TPU's. This ASIC is the most efficient way to train machine learning models. Although the code used is also available as a notebook on my github under the name: *privbert_training.ipynb* I suggest people who are interested in how that worked to visit the notebook on google colab using this link: https://colab.research.google.com/drive/1jtvEPrQvLT63LaLBCFI5pWKeNEqS4W1O?usp=sharing
  
-
+ ### Building the hierarchical system
+ To train the BERT classifcation models I used Kaggle's notebook, here one is able to use a GPU for up to 40 hours a week. Just like *privbert_training.ipynb* is also available here on this github page it was created and is better read on Kaggle. One can find the different codes and datasets that were used on my profile: https://www.kaggle.com/lukasbusch
+ 
+ ### Other notebooks
+ The only notebook that cannot be found on either my Kaggle or Google Colab is *sqlite_reading.ipynb*, this notebook was used to read and process the raw privacy policies that were used to create the fine-tuned BERT model.
