@@ -22,7 +22,9 @@ A website's privacy policy is meant to inform users, however policies are often 
  * *privbert.ipynb*, used to train all 18 BERT models and to run tests for the stratification mehtods.
  * *privbert_full_model.ipynb*, used to create and apply the advice system
  * *privbert_results.ipynb*, used to process and interprete the results obtained in *privbert.ipynb* and *privbert_results.ipynb
-  Each notebook has explanations inside. For the .py files, which were created when pieces of code were used more than once, there is an additional notebook called *class_explanations.ipynb* in which these scripts (classes created for this project) are explained/ looked at.
+  Each notebook has explanations inside. 
+  
+  For the .py files, which were created when pieces of code were used more than once, there is an additional notebook called *class_explanations.ipynb* in which these scripts (classes created for this project) are explained/ looked at.
   
  One can find the different codes and datasets that were used for this research on my Kaggle profile also: https://www.kaggle.com/lukasbusch
  
