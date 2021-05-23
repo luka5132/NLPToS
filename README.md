@@ -9,7 +9,7 @@ As well as serving as the final product I wll continously update here, this way 
 
 ## Abstract of paper:
 
-A website's privacy policy is meant to inform users, however policies are often long and difficult to understand. A growing number of research uses machine learning to address this problem. This paper focuses on privacy policy classification and introduces a so-called 'advice system' which leverages the hierarchical structure the annotated data in the OPP-115 privacy policy corpus. Combining this system with a BERT language model that is trained on a corpus of 340K privacy policies yields results that are on par, or by some metrics slightly better ($\approx$1\%) than the state of the art. It achieves these results by sacrificing some precision for a higher recall. 
+A website's privacy policy is meant to inform users, however policies are often long and difficult to understand. A growing number of research uses machine learning to address this problem. This paper focuses on privacy policy classification and introduces a so-called 'advice system' which leverages the hierarchical structure the annotated data in the OPP-115 privacy policy corpus. Combining this system with a BERT language model that is trained on a corpus of 340K privacy policies yields results that are on par, or by some metrics slightly better (around 1%) than the state of the art. It achieves these results by sacrificing some precision for a higher recall. 
 
 ## Guide through Github
 
