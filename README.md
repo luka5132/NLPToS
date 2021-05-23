@@ -18,10 +18,10 @@ A website's privacy policy is meant to inform users, however policies are often 
  
  ### Building the hierarchical system
  To train the BERT classifcation models I used Kaggle's notebook, here one is able to use a GPU for up to 40 hours a week. The following notebooks were created and usd on Kaggle:
-  *stratify_data.ipynb*, used to create the 5 train,val and test sets for the advice system and used to create the 15 different training seths for both methods of stratification mentioned in the paper: Segment-based and policy-based.
- *privbert.ipynb*, used to train all 18 BERT models and to run tests for the stratification mehtods.
- *privbert_full_model.ipynb*, used to create and apply the advice system
- *privbert_results.ipynb*, used to process and interprete the results obtained in *privbert.ipynb* and *privbert_results.ipynb
+ * *stratify_data.ipynb*, used to create the 5 train,val and test sets for the advice system and used to create the 15 different training seths for both methods of stratification mentioned in the paper: Segment-based and policy-based.
+ * *privbert.ipynb*, used to train all 18 BERT models and to run tests for the stratification mehtods.
+ * *privbert_full_model.ipynb*, used to create and apply the advice system
+ * *privbert_results.ipynb*, used to process and interprete the results obtained in *privbert.ipynb* and *privbert_results.ipynb
   Each notebook has explanations inside. For the .py files, which were created when pieces of code were used more than once, there is an additional notebook called *class_explanations.ipynb* in which these scripts (classes created for this project) are explained/ looked at.
   
  One can find the different codes and datasets that were used for this research on my Kaggle profile also: https://www.kaggle.com/lukasbusch
